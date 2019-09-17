@@ -1,6 +1,9 @@
-class TimeslotsController < ApplicationController
+class Api::V1::TimeslotsController < ApplicationController
+  before_action :find_timeslot, only: [:show, :edit, :update, :destroy]
+
   def index
     @timeslots = Timeslot.all
+    render json: timeslots, status: 200
   end
 
   def new
@@ -9,27 +12,25 @@ class TimeslotsController < ApplicationController
 
   def create
     @timeslot = Timeslot.create(timeslot_params)
-    # TODO verify
-    redirect_to timeslot_path(@timeslot)
+    render json: timeslot, status: 201
   end
 
   def show
-    find_timeslot
+    render json: @timeslot, status: 200
   end
 
   def edit
-    find_timeslot
   end
 
   def update
-    find_timeslot
     @timeslot.update(timeslot_params)
-    redirect_to @timeslot
+    render json: @timeslot, status: 200
   end
 
   def destroy
-    Timeslot.find(params[:id]).destroy
-    redirect_to timeslots_path
+    timeslotId = @timeslot.id
+    @timeslot.destroy
+    render json: {message: "Timeslot deleted", timeslotId:timeslotId}
   end
 
   private

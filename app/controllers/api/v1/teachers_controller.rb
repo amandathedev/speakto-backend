@@ -1,6 +1,9 @@
-class TeachersController < ApplicationController
+class Api::V1::TeachersController < ApplicationController
+  before_action :find_teacher, only: [:show, :edit, :update, :destroy]
+
   def index
     @teachers = Teacher.all
+    render json: teachers, status: 200
   end
 
   def new
@@ -9,27 +12,25 @@ class TeachersController < ApplicationController
 
   def create
     @teacher = Teacher.create(teacher_params)
-    # TODO verify
-    redirect_to teacher_path(@teacher)
+    render json: teacher, status: 201
   end
 
   def show
-    find_teacher
+    render json: @teacher, status: 200
   end
 
   def edit
-    find_teacher
   end
 
   def update
-    find_teacher
     @teacher.update(teacher_params)
-    redirect_to @teacher
+    render json: @teacher, status: 200
   end
 
   def destroy
-    Teacher.find(params[:id]).destroy
-    redirect_to teachers_path
+    teacherId = @teacher.id
+    @teacher.destroy
+    render json: {message: "Teacher deleted", teacherId:teacherId}
   end
 
   private

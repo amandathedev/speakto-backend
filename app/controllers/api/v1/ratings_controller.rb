@@ -1,6 +1,9 @@
-class RatingsController < ApplicationController
+class Api::V1::RatingsController < ApplicationController
+  before_action :find_rating, only: [:show, :edit, :update, :destroy]
+
   def index
     @ratings = Rating.all
+    render json: ratings, status: 200
   end
 
   def new
@@ -9,27 +12,25 @@ class RatingsController < ApplicationController
   
   def create
     @rating = Rating.create(rating_params)
-    # TODO verify
-    redirect_to rating_path(@rating)
+    render json: rating, status: 201
   end
 
   def show
-    find_rating
+    render json: @rating, status: 200
   end
 
   def edit
-    find_rating
   end
 
   def update
-    find_rating
     @rating.update(rating_params)
-    redirect_to @rating
+    render json: @rating, status: 200
   end
 
   def destroy
-    Rating.find(params[:id]).destroy
-    redirect_to ratings_path
+    ratingId = @rating.id
+    @rating.destroy
+    render json: {message: "Rating deleted", ratingId:ratingId}
   end
 
   private

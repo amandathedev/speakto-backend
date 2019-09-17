@@ -1,6 +1,9 @@
-class LessonsController < ApplicationController
+class Api::V1::LessonsController < ApplicationController
+  before_action :find_lesson, only: [:show, :edit, :update, :destroy]
+
   def index
     @lessons = Lesson.all
+    render json: lessons, status: 200
   end
 
   def new
@@ -9,27 +12,25 @@ class LessonsController < ApplicationController
 
   def create
     @lesson = Lesson.create(lesson_params)
-    # TODO verify
-    redirect_to lesson_path(@lesson)
+    render json: lesson, status: 201
   end
 
   def show
-    find_lesson
+    render json: @lesson, status: 200
   end
 
   def edit
-    find_lesson
   end
 
   def update
-    find_lesson
     @lesson.update(lesson_params)
-    redirect_to @lesson
+    render json: @lesson, status: 200
   end
 
   def destroy
-    Lesson.find(params[:id]).destroy
-    redirect_to lessons_path
+    lessonId = @lesson.id
+    @lesson.destroy
+    render json: {message: "Lesson deleted", lessonId:lessonId}
   end
 
   private
