@@ -34,12 +34,13 @@ ActiveRecord::Schema.define(version: 2019_09_16_233621) do
     t.string "name"
     t.string "username"
     t.string "email"
-    t.string "password_digest"
+    t.string "password"
     t.string "skype_id"
     t.string "native_language"
     t.string "photo_url"
     t.integer "lessons_completed"
     t.integer "lesson_credits"
+    t.integer "free_credits"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -48,7 +49,7 @@ ActiveRecord::Schema.define(version: 2019_09_16_233621) do
     t.string "name"
     t.string "username"
     t.string "email"
-    t.string "password_digest"
+    t.string "password"
     t.string "skype_id"
     t.string "photo_url"
     t.string "intro_text"

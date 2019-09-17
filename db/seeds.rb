@@ -147,8 +147,8 @@ Student.create(
   skype_id: "hotpalmer69",
   native_language: "Italian",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/9/90/2009Meredith.jpg/revision/latest/scale-to-width-down/2000?cb=20170701084945",
-  lessons_completed: ,
-  lesson_credits: 
+  lessons_completed: 20,
+  lesson_credits: 80
 )
 
 Student.create(
@@ -159,8 +159,8 @@ Student.create(
   skype_id: "creed",
   native_language: "Spanish",
   photo_url: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/CreedBratton%28TheOffice%29.jpg/220px-CreedBratton%28TheOffice%29.jpg",
-  lessons_completed: ,
-  lesson_credits: 
+  lessons_completed: 30,
+  lesson_credits: 70
 )
 
 Student.create(
@@ -171,8 +171,8 @@ Student.create(
   skype_id: "uticakaren",
   native_language: "Arabic",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/8/80/Bh01.jpg/revision/latest?cb=20170724044329",
-  lessons_completed: ,
-  lesson_credits: 
+  lessons_completed: 10,
+  lesson_credits: 90
 )
 
 Student.create(
@@ -183,8 +183,8 @@ Student.create(
   skype_id: "wunderkind",
   native_language: "Afrikaans",
   photo_url: "https://media2.s-nbcnews.com/j/streams/2012/June/120627/434210-120627-ent-bjnovak-vmed.fit-760w.jpg",
-  lessons_completed: ,
-  lesson_credits: 
+  lessons_completed: 50,
+  lesson_credits: 50
 )
 
 Student.create(
@@ -195,8 +195,8 @@ Student.create(
   skype_id: "crosswords4ever",
   native_language: "Greek",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/2/23/Stanley_Hudson.jpg/revision/latest?cb=20170701085445",
-  lessons_completed: ,
-  lesson_credits: 
+  lessons_completed: 100,
+  lesson_credits: 0
 )
 
 Student.create(
@@ -207,8 +207,8 @@ Student.create(
   skype_id: "tacobellexpress",
   native_language: "Polish",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/0/0a/ErinHannon.jpg/revision/latest?cb=20170805002853",
-  lessons_completed: ,
-  lesson_credits: 
+  lessons_completed: 0,
+  lesson_credits: 100
 )
 
 Student.create(
@@ -219,8 +219,8 @@ Student.create(
   skype_id: "dontcallmeCFO",
   native_language: "German",
   photo_url: "https://upload.wikimedia.org/wikipedia/en/a/a0/David_Wallace_%28The_Office%29.jpg",
-  lessons_completed: ,
-  lesson_credits: 
+  lessons_completed: 25,
+  lesson_credits: 75
 )
 
 Student.create(
@@ -231,8 +231,8 @@ Student.create(
   skype_id: "flaxseed",
   native_language: "French",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/b/b9/Holly_Season_7.jpg/revision/latest?cb=20171127004045",
-  lessons_completed: ,
-  lesson_credits: 
+  lessons_completed: 75,
+  lesson_credits: 25
 )
 
 Student.create(
@@ -243,8 +243,8 @@ Student.create(
   skype_id: "lejonbrames",
   native_language: "Chinese",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/4/49/2009DarrylCroppeed.PNG/revision/latest/scale-to-width-down/2000?cb=20170701085636",
-  lessons_completed: ,
-  lesson_credits: 
+  lessons_completed: 90,
+  lesson_credits: 10
 )
 
 Student.create(
@@ -255,7 +255,120 @@ Student.create(
   skype_id: "january",
   native_language: "Japanese",
   photo_url: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2015%2F01%2F15251__melora_l.jpg&w=400&c=sc&poi=face&q=85",
-  lessons_completed: ,
-  lesson_credits: 
+  lessons_completed: 60,
+  lesson_credits: 40
+)
+
+# Timeslots
+Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  date: 16,
+  hour: 13,
+  available: false
+)
+
+Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  date: 16,
+  hour: 14,
+  available: false
+)
+
+Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  date: 16,
+  hour: 15,
+  available: false
+)
+
+Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  date: 16,
+  hour: 16,
+  available: false
+)
+
+Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  date: 16,
+  hour: 17,
+  available: false
+)
+
+# Lessons
+Lesson.create(
+  teacher_id: 1,
+  student_id: 1,
+  timeslot_id: 1
+)
+
+Lesson.create(
+  teacher_id: 1,
+  student_id: 2,
+  timeslot_id: 2
+)
+
+Lesson.create(
+  teacher_id: 1,
+  student_id: 3,
+  timeslot_id: 3
+)
+
+Lesson.create(
+  teacher_id: 1,
+  student_id: 4,
+  timeslot_id: 4
+)
+
+Lesson.create(
+  teacher_id: 1,
+  student_id: 5,
+  timeslot_id: 5
+)
+
+# Ratings
+Rating.create(
+  comment: "Wonderful",
+  rating: 5,
+  teacher_id: 1,
+  student_id: 1,
+  lesson_id: 1
+)
+
+Rating.create(
+  comment: "Pretty good",
+  rating: 4,
+  teacher_id: 1,
+  student_id: 2,
+  lesson_id: 2
+)
+
+Rating.create(
+  comment: "Nice",
+  rating: 3,
+  teacher_id: 1,
+  student_id: 3,
+  lesson_id: 3
+)
+
+Rating.create(
+  comment: "Thank you",
+  rating: 4,
+  teacher_id: 1,
+  student_id: 4,
+  lesson_id: 4
+)
+
+Rating.create(
+  comment: "Yay",
+  rating: 5,
+  teacher_id: 1,
+  student_id: 5,
+  lesson_id: 5
 )
 
