@@ -13,4 +13,6 @@ class Teacher < ApplicationRecord
   validates :username, :email, :skype_id, :photo_url, uniqueness: true
   # https://apidock.com/rails/ActiveModel/Validations/ClassMethods/validates_format_of
   validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, :on => :create
+  # https://stackoverflow.com/questions/23158080/full-name-regex-in-ruby
+  validates_format_of :name, :with => /([\w\-\']{2,})([\s]+)([\w\-\']{2,})/, :on => :create
 end
