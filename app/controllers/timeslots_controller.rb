@@ -34,9 +34,8 @@ class TimeslotsController < ApplicationController
 
   private
 
-  # TODO permit -- foreign keys?
   def timeslot_params
-    params.require(:timeslot)
+    params.require(:timeslot).permit(:teacher_id, :month, :date, :hour, :available)
   end
 
   def find_timeslot

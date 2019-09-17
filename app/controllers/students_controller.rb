@@ -34,9 +34,8 @@ class StudentsController < ApplicationController
 
   private
 
-  # TODO -- correct? password_digest?
   def student_params
-    params.require(:student).permit(:name, :username, :password_digest, :email, :skype_id, :native_language, :photo_url)
+    params.require(:student).permit(:name, :username, :email, :password_digest, :skype_id, :native_language, :photo_url, :lessons_completed, :lesson_credits)
   end
 
   def find_student

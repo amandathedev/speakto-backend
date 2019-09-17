@@ -34,9 +34,8 @@ class LessonsController < ApplicationController
 
   private
 
-  # TODO permit
   def lesson_params
-    params.require(:lesson)
+    params.require(:lesson).permit(:teacher_id, :student_id, :timeslot_id)
   end
 
   def find_lesson

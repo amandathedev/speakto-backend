@@ -34,9 +34,8 @@ class TeachersController < ApplicationController
 
   private
 
-  # TODO verify -- password digest?
   def teacher_params
-    params.require(:teacher).permit(:name, :username, :email, :password_digest, :skype_id, :photo_url, :intro_text)
+    params.require(:teacher).permit(:name, :username, :email, :password_digest, :skype_id, :photo_url, :intro_text, :volunteer_points, :lessons_completed, :income_balance)
   end
 
   def find_teacher

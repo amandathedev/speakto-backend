@@ -34,9 +34,8 @@ class RatingsController < ApplicationController
 
   private
 
-  # TODO -- add foreign keys
   def rating_params
-    params.require(:rating).permit(:comment, :rating)
+    params.require(:rating).permit(:comment, :rating, :lesson_id)
   end
 
   def find_rating
