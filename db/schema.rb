@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 2019_09_16_233621) do
     t.string "native_language"
     t.string "photo_url"
     t.integer "lessons_completed"
+    t.integer "lesson_credits"
     t.integer "free_credits"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
