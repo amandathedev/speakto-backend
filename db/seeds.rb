@@ -83,7 +83,7 @@ Teacher.create(
   password_digest: BCrypt::Password.create('123'),
   skype_id: "fridgewife",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/e/e6/Phyllis_Vance.jpg/revision/latest/scale-to-width-down/2000?cb=20170701090016",
-  intro_text: "Phyliss Vance of Vance Refrigeration. Call me.",
+  intro_text: "Phyliss Vance of Vance Refrigeration.",
   volunteer_points: 60,
   lessons_completed: 9,
   income_balance: 90

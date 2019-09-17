@@ -10,7 +10,6 @@ class CreateStudents < ActiveRecord::Migration[5.2]
       t.string :photo_url
       t.integer :lessons_completed
       t.integer :lesson_credits
-      t.integer :free_credits
 
       t.timestamps
     end
