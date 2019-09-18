@@ -3,7 +3,7 @@ class Api::V1::TimeslotsController < ApplicationController
 
   def index
     @timeslots = Timeslot.all
-    render json: timeslots, status: 200
+    render json: @timeslots, status: 200
   end
 
   def new
@@ -12,7 +12,7 @@ class Api::V1::TimeslotsController < ApplicationController
 
   def create
     @timeslot = Timeslot.create(timeslot_params)
-    render json: timeslot, status: 201
+    render json: @timeslot, status: 201
   end
 
   def show

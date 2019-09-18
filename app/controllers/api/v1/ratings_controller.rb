@@ -3,7 +3,7 @@ class Api::V1::RatingsController < ApplicationController
 
   def index
     @ratings = Rating.all
-    render json: ratings, status: 200
+    render json: @ratings, status: 200
   end
 
   def new
@@ -12,7 +12,7 @@ class Api::V1::RatingsController < ApplicationController
   
   def create
     @rating = Rating.create(rating_params)
-    render json: rating, status: 201
+    render json: @rating, status: 201
   end
 
   def show

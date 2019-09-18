@@ -3,7 +3,7 @@ class Api::V1::StudentsController < ApplicationController
 
   def index
     @students = Student.all
-    render json: students, status: 200
+    render json: @students, status: 200
   end
 
   def new
@@ -12,7 +12,7 @@ class Api::V1::StudentsController < ApplicationController
 
   def create
     @student = Student.create(student_params)
-    render json: student, status: 201
+    render json: @student, status: 201
   end
   
   def show

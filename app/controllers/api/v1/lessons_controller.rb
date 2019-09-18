@@ -3,7 +3,7 @@ class Api::V1::LessonsController < ApplicationController
 
   def index
     @lessons = Lesson.all
-    render json: lessons, status: 200
+    render json: @lessons, status: 200
   end
 
   def new
@@ -12,7 +12,7 @@ class Api::V1::LessonsController < ApplicationController
 
   def create
     @lesson = Lesson.create(lesson_params)
-    render json: lesson, status: 201
+    render json: @lesson, status: 201
   end
 
   def show
