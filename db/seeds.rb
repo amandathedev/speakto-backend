@@ -149,7 +149,7 @@ Student.create(
   username: "hotpalmer69",
   email: "jakesmommy@email.com",
   password_digest: BCrypt::Password.create('123'),
-  skype_id: "hotpalmer69"
+  skype_id: "hotpalmer69",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/9/90/2009Meredith.jpg/revision/latest/scale-to-width-down/2000?cb=20170701084945",
   lessons_completed: 20,
   native_language: "Italian",
@@ -340,40 +340,40 @@ Lesson.create(
 Rating.create(
   comment: "Wonderful",
   rating: 5,
-  teacher_id: 1,
-  student_id: 1,
+  # teacher_id: 1,
+  # student_id: 1,
   lesson_id: 1
 )
 
 Rating.create(
   comment: "Pretty good",
   rating: 4,
-  teacher_id: 1,
-  student_id: 2,
+  # teacher_id: 1,
+  # student_id: 2,
   lesson_id: 2
 )
 
 Rating.create(
   comment: "Nice",
   rating: 3,
-  teacher_id: 1,
-  student_id: 3,
+  # teacher_id: 1,
+  # student_id: 3,
   lesson_id: 3
 )
 
 Rating.create(
   comment: "Thank you",
   rating: 4,
-  teacher_id: 1,
-  student_id: 4,
+  # teacher_id: 1,
+  # student_id: 4,
   lesson_id: 4
 )
 
 Rating.create(
   comment: "Yay",
   rating: 5,
-  teacher_id: 1,
-  student_id: 5,
+  # teacher_id: 1,
+  # student_id: 5,
   lesson_id: 5
 )
 

@@ -10,7 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_18_152401) do
+ActiveRecord::Schema.define(version: 2019_09_16_233621) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "lessons", force: :cascade do |t|
     t.integer "teacher_id"
@@ -29,6 +32,13 @@ ActiveRecord::Schema.define(version: 2019_09_18_152401) do
   end
 
   create_table "students", force: :cascade do |t|
+    t.string "name"
+    t.string "username"
+    t.string "email"
+    t.string "password_digest"
+    t.string "skype_id"
+    t.string "photo_url"
+    t.integer "lessons_completed"
     t.string "native_language"
     t.integer "lesson_credits"
     t.datetime "created_at", null: false
@@ -36,6 +46,13 @@ ActiveRecord::Schema.define(version: 2019_09_18_152401) do
   end
 
   create_table "teachers", force: :cascade do |t|
+    t.string "name"
+    t.string "username"
+    t.string "email"
+    t.string "password_digest"
+    t.string "skype_id"
+    t.string "photo_url"
+    t.integer "lessons_completed"
     t.string "intro_text"
     t.integer "volunteer_points"
     t.integer "income_balance"
@@ -49,18 +66,6 @@ ActiveRecord::Schema.define(version: 2019_09_18_152401) do
     t.integer "date"
     t.integer "hour"
     t.boolean "available"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.string "username"
-    t.string "email"
-    t.string "password_digest"
-    t.string "skype_id"
-    t.string "photo_url"
-    t.integer "lessons_completed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
