@@ -17,6 +17,7 @@ class Api::V1::StudentsController < ApplicationController
   
   def show
     render json: @student, status: 200
+    # render json: {message: "Hello from the login"}
   end
 
   def edit

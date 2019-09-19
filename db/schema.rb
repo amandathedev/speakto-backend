@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_16_233621) do
+ActiveRecord::Schema.define(version: 2019_09_18_152401) do
 
   create_table "lessons", force: :cascade do |t|
     t.integer "teacher_id"
@@ -29,29 +29,15 @@ ActiveRecord::Schema.define(version: 2019_09_16_233621) do
   end
 
   create_table "students", force: :cascade do |t|
-    t.string "name"
-    t.string "username"
-    t.string "email"
-    t.string "password_digest"
-    t.string "skype_id"
     t.string "native_language"
-    t.string "photo_url"
-    t.integer "lessons_completed"
     t.integer "lesson_credits"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "teachers", force: :cascade do |t|
-    t.string "name"
-    t.string "username"
-    t.string "email"
-    t.string "password_digest"
-    t.string "skype_id"
-    t.string "photo_url"
     t.string "intro_text"
     t.integer "volunteer_points"
-    t.integer "lessons_completed"
     t.integer "income_balance"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -63,6 +49,18 @@ ActiveRecord::Schema.define(version: 2019_09_16_233621) do
     t.integer "date"
     t.integer "hour"
     t.boolean "available"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.string "username"
+    t.string "email"
+    t.string "password_digest"
+    t.string "skype_id"
+    t.string "photo_url"
+    t.integer "lessons_completed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

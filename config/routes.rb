@@ -8,7 +8,7 @@ Rails.application.routes.draw do
       resources :students
       resources :teachers
 
-      # get '/login' to 'students#show'
+      get '/login', to: 'students#show'
     end
   end
 

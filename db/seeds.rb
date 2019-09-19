@@ -20,9 +20,9 @@ Teacher.create(
   password_digest: BCrypt::Password.create('123'),
   skype_id: "spamster",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/6/67/Pam_Beesley.jpg/revision/latest/scale-to-width-down/2000?cb=20170701084358",
+  lessons_completed: 40,
   intro_text: "I have been teaching english for ten years. I'm excited to meet you!",
   volunteer_points: 200,
-  lessons_completed: 40,
   income_balance: 400
 )
 
@@ -33,9 +33,9 @@ Teacher.create(
   password_digest: BCrypt::Password.create('123'),
   skype_id: "bigtuna55",
   photo_url: "https://static2.comicvine.com/uploads/original/11131/111318414/5778427-jim%20halpert.jpg",
+  lessons_completed: 25,
   intro_text: "You can practice your English while we talk about sports.",
   volunteer_points: 100,
-  lessons_completed: 25,
   income_balance: 250
 )
 
@@ -46,9 +46,9 @@ Teacher.create(
   password_digest: BCrypt::Password.create('123'),
   skype_id: "beetfarmer",
   photo_url: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Dwight_Schrute.jpg/220px-Dwight_Schrute.jpg",
+  lessons_completed: 10,
   intro_text: "Do you want to learn about beets? Book a lesson today!",
   volunteer_points: 0,
-  lessons_completed: 10,
   income_balance: 100
 )
 
@@ -59,9 +59,9 @@ Teacher.create(
   password_digest: BCrypt::Password.create('123'),
   skype_id: "littlekidlvr",
   photo_url: "https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png",
+  lessons_completed: 70,
   intro_text: "You miss 100% of the shots you don't take.",
   volunteer_points: 10,
-  lessons_completed: 70,
   income_balance: 700
 )
 
@@ -72,9 +72,9 @@ Teacher.create(
   password_digest: BCrypt::Password.create('123'),
   skype_id: "narddog",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/b/b5/Andy_Bernard.jpg/revision/latest/scale-to-width-down/2000?cb=20170701084205",
+  lessons_completed: 100,
   intro_text: "I can tell you everything about Cornell University. See my availability to book a lesson.",
   volunteer_points: 110,
-  lessons_completed: 100,
   income_balance: 1000
 )
 
@@ -85,9 +85,9 @@ Teacher.create(
   password_digest: BCrypt::Password.create('123'),
   skype_id: "fridgewife",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/e/e6/Phyllis_Vance.jpg/revision/latest/scale-to-width-down/2000?cb=20170701090016",
+  lessons_completed: 9,
   intro_text: "Phyliss Vance of Vance Refrigeration.",
   volunteer_points: 60,
-  lessons_completed: 9,
   income_balance: 90
 )
 
@@ -98,9 +98,9 @@ Teacher.create(
   password_digest: BCrypt::Password.create('123'),
   skype_id: "littledrummergirl",
   photo_url: "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Angela_Martin.jpg/230px-Angela_Martin.jpg",
+  lessons_completed: 20,
   intro_text: "I hope you like cats!",
   volunteer_points: 20,
-  lessons_completed: 20,
   income_balance: 200
 )
 
@@ -111,9 +111,9 @@ Teacher.create(
   password_digest: BCrypt::Password.create('123'),
   skype_id: "scrantonicity",
   photo_url: "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Office-1200-baumgartner1.jpg/260px-Office-1200-baumgartner1.jpg",
+  lessons_completed: 5,
   intro_text: "Do you want to hear about the time I ate 28 hot dogs? Fax me.",
   volunteer_points: 50,
-  lessons_completed: 5,
   income_balance: 50
 )
 
@@ -124,9 +124,9 @@ Teacher.create(
   password_digest: BCrypt::Password.create('123'),
   skype_id: "sparklebeyonce",
   photo_url: "https://i.pinimg.com/originals/8e/e4/26/8ee426c9225e90dd38b46e0cbb65d16d.png",
+  lessons_completed: 50,
   intro_text: "Let's talk about pop culture and gossip. It'll mostly be me talking but maybe you'll learn something.",
   volunteer_points: 100,
-  lessons_completed: 50,
   income_balance: 500
 )
 
@@ -137,9 +137,9 @@ Teacher.create(
   password_digest: BCrypt::Password.create('123'),
   skype_id: "notthestrangler",
   photo_url: "https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Toby_Flenderson_promo_picture.jpg/220px-Toby_Flenderson_promo_picture.jpg",
+  lessons_completed: 10,
   intro_text: "I am 100% not the Scranton strangler. Book a lesson and we can talk about it.",
   volunteer_points: 150,
-  lessons_completed: 10,
   income_balance: 100
 )
 
@@ -149,10 +149,10 @@ Student.create(
   username: "hotpalmer69",
   email: "jakesmommy@email.com",
   password_digest: BCrypt::Password.create('123'),
-  skype_id: "hotpalmer69",
-  native_language: "Italian",
+  skype_id: "hotpalmer69"
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/9/90/2009Meredith.jpg/revision/latest/scale-to-width-down/2000?cb=20170701084945",
   lessons_completed: 20,
+  native_language: "Italian",
   lesson_credits: 80
 )
 
@@ -162,9 +162,9 @@ Student.create(
   email: "creed@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "creed",
-  native_language: "Spanish",
   photo_url: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/CreedBratton%28TheOffice%29.jpg/220px-CreedBratton%28TheOffice%29.jpg",
   lessons_completed: 30,
+  native_language: "Spanish",
   lesson_credits: 70
 )
 
@@ -174,9 +174,9 @@ Student.create(
   email: "filapelli@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "uticakaren",
-  native_language: "Arabic",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/8/80/Bh01.jpg/revision/latest?cb=20170724044329",
   lessons_completed: 10,
+  native_language: "Arabic",
   lesson_credits: 90
 )
 
@@ -186,9 +186,9 @@ Student.create(
   email: "nottemporary@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "wunderkind",
-  native_language: "Afrikaans",
   photo_url: "https://media2.s-nbcnews.com/j/streams/2012/June/120627/434210-120627-ent-bjnovak-vmed.fit-760w.jpg",
   lessons_completed: 50,
+  native_language: "Afrikaans",
   lesson_credits: 50
 )
 
@@ -198,9 +198,9 @@ Student.create(
   email: "pretzelday@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "crosswords4ever",
-  native_language: "Greek",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/2/23/Stanley_Hudson.jpg/revision/latest?cb=20170701085445",
   lessons_completed: 100,
+  native_language: "Greek",
   lesson_credits: 0
 )
 
@@ -210,9 +210,9 @@ Student.create(
   email: "KEHannon",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "tacobellexpress",
-  native_language: "Polish",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/0/0a/ErinHannon.jpg/revision/latest?cb=20170805002853",
   lessons_completed: 0,
+  native_language: "Polish",
   lesson_credits: 100
 )
 
@@ -222,9 +222,9 @@ Student.create(
   email: "dfwallace@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "dontcallmeCFO",
-  native_language: "German",
   photo_url: "https://upload.wikimedia.org/wikipedia/en/a/a0/David_Wallace_%28The_Office%29.jpg",
   lessons_completed: 25,
+  native_language: "German",
   lesson_credits: 75
 )
 
@@ -234,9 +234,9 @@ Student.create(
   email: "yogalady@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "flaxseed",
-  native_language: "French",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/b/b9/Holly_Season_7.jpg/revision/latest?cb=20171127004045",
   lessons_completed: 75,
+  native_language: "French",
   lesson_credits: 25
 )
 
@@ -246,9 +246,9 @@ Student.create(
   email: "athlead@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "lejonbrames",
-  native_language: "Chinese",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/4/49/2009DarrylCroppeed.PNG/revision/latest/scale-to-width-down/2000?cb=20170701085636",
   lessons_completed: 90,
+  native_language: "Chinese",
   lesson_credits: 10
 )
 
@@ -258,9 +258,9 @@ Student.create(
   email: "astridsmom@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "january",
-  native_language: "Japanese",
   photo_url: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fewedit.files.wordpress.com%2F2015%2F01%2F15251__melora_l.jpg&w=400&c=sc&poi=face&q=85",
   lessons_completed: 60,
+  native_language: "Japanese",
   lesson_credits: 40
 )
 
