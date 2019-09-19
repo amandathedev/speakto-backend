@@ -12,7 +12,13 @@ class Api::V1::StudentsController < ApplicationController
 
   def create
     @student = Student.create(student_params)
-    render json: @student, status: 201
+    if @student.valid?
+      render json: { student: StudentSerializer.new(@student) }, status: :created
+    else
+      render json: { error: 'failed to create student' }, status: :not_acceptable
+    end
+    # TODO
+    # render json: @student, status: 201
   end
   
   def show

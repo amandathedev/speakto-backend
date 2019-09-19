@@ -3,7 +3,9 @@ class Api::V1::TeachersController < ApplicationController
 
   def index
     @teachers = Teacher.all
-    render json: @teachers, each_serializer: TeacherSerializer
+    render json: 
+    @teachers, each_serializer: TeacherSerializer
+    # { teacher: TeacherSerializer.new(@teacher) }, status: :accepted
     # TODO
     # status: 200
   end
@@ -14,7 +16,13 @@ class Api::V1::TeachersController < ApplicationController
 
   def create
     @teacher = Teacher.create(teacher_params)
-    render json: @teacher, status: 201
+    if @teacher.valid?
+      render json: { teacher: TeacherSerializer.new(@teacher) }, status: :created
+    else
+      render json: { error: 'failed to createt teacher' }, status: :not_acceptable
+    end
+    # TODO
+    # render json: @teacher, status: 201
   end
 
   def show

@@ -3,8 +3,7 @@ class Teacher < ApplicationRecord
   has_many :lessons, dependent: :destroy
   has_many :students, through: :lessons
   has_many :timeslots, dependent: :destroy
-  # has_many :lessons, through: :timeslots
-  has_many :ratings, dependent: :destroy
+  has_many :ratings, through: :lessons
 
   validates :name, :username, :email, :password_digest, :skype_id, :photo_url, :intro_text, presence: true
   validates :name, length: { minimum: 4 }
