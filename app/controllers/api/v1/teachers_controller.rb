@@ -2,6 +2,7 @@ class Api::V1::TeachersController < ApplicationController
   before_action :find_teacher, only: [:show, :edit, :update, :destroy]
 
   def index
+    Binding.pry
     @teachers = Teacher.all
     render json: 
     @teachers, each_serializer: TeacherSerializer

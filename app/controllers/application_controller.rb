@@ -1,3 +1,4 @@
+
 class ApplicationController < ActionController::API
   before_action :authorized
 
@@ -21,7 +22,7 @@ class ApplicationController < ActionController::API
   end
 
   def current_teacher
-    if decoded_token()
+    if decoded_token
       teacher_id = decoded_token[0]['teacher_id']
       @teacher = Teacher.find_by(id: teacher_id)
     else

@@ -8,14 +8,13 @@ Rails.application.routes.draw do
       resources :students
       resources :teachers
       post '/login', to: 'auth#create'
+      # get '/current_user', to: 'auth#show'
       # TODO
-      get '/profile', to: 'teachers#profile'
-      get '/profile', to: 'students#profile'
+      get '/teacherprofile', to: 'teachers#show'
+      get '/studentprofile', to: 'students#show'
 
       # TODO
       # get '/login', to: 'students#show'
     end
   end
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 2019_09_16_233621) do
     t.string "skype_id"
     t.string "photo_url"
     t.integer "lessons_completed"
+    t.string "intro_text"
     t.string "native_language"
     t.integer "lesson_credits"
     t.datetime "created_at", null: false
@@ -54,6 +55,7 @@ ActiveRecord::Schema.define(version: 2019_09_16_233621) do
     t.string "photo_url"
     t.integer "lessons_completed"
     t.string "intro_text"
+    t.string "native_language"
     t.integer "volunteer_points"
     t.integer "income_balance"
     t.datetime "created_at", null: false
