@@ -21,7 +21,7 @@ Teacher.create(
   skype_id: "spamster",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/6/67/Pam_Beesley.jpg/revision/latest/scale-to-width-down/2000?cb=20170701084358",
   lessons_completed: 40,
-  intro_text: "I have been teaching english for ten years. I'm excited to meet you!",
+  intro_text: "I have been teaching English for ten years. I'm excited to meet you!",
   volunteer_points: 200,
   income_balance: 400
 )
@@ -34,7 +34,7 @@ Teacher.create(
   skype_id: "bigtuna55",
   photo_url: "https://static2.comicvine.com/uploads/original/11131/111318414/5778427-jim%20halpert.jpg",
   lessons_completed: 25,
-  intro_text: "You can practice your English while we talk about sports.",
+  intro_text: "You can practice your English while we talk about sports. Whatever kind of spots you want.",
   volunteer_points: 100,
   income_balance: 250
 )
@@ -58,7 +58,7 @@ Teacher.create(
   email: "michaelgscott@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "littlekidlvr",
-  photo_url: "https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png",
+  photo_url: "https://media1.popsugar-assets.com/files/thumbor/eOF2Umn-mqNGnohxrtjeurwWDmI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2018/08/20/677/n/1922283/1118a12c5b7adb1e342de9.55515725_/i/Michael-Scott-Misquotations-Office-Video.jpg",
   lessons_completed: 70,
   intro_text: "You miss 100% of the shots you don't take.",
   volunteer_points: 10,
@@ -86,7 +86,7 @@ Teacher.create(
   skype_id: "fridgewife",
   photo_url: "https://vignette.wikia.nocookie.net/theoffice/images/e/e6/Phyllis_Vance.jpg/revision/latest/scale-to-width-down/2000?cb=20170701090016",
   lessons_completed: 9,
-  intro_text: "Phyliss Vance of Vance Refrigeration.",
+  intro_text: "Phyllis Vance of Vance Refrigeration. Married to Bob Vance of Vance Refrigeration",
   volunteer_points: 60,
   income_balance: 90
 )
@@ -99,7 +99,7 @@ Teacher.create(
   skype_id: "littledrummergirl",
   photo_url: "https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Angela_Martin.jpg/230px-Angela_Martin.jpg",
   lessons_completed: 20,
-  intro_text: "I hope you like cats!",
+  intro_text: "I hope you like cats! I can tell you all about mine. I have a lot of cats.",
   volunteer_points: 20,
   income_balance: 200
 )
@@ -123,7 +123,7 @@ Teacher.create(
   email: "princess@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "sparklebeyonce",
-  photo_url: "https://i.pinimg.com/originals/8e/e4/26/8ee426c9225e90dd38b46e0cbb65d16d.png",
+  photo_url: "https://media1.popsugar-assets.com/files/thumbor/eXDFklp6xdWXLyvn9BcH5p-b_rk/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/06/21/951/n/1922283/05e3e789_edit_img_image_41730517_1466542783_kelly-th/i/Kelly-Kapoor-GIFs-From-Office.jpg",
   lessons_completed: 50,
   intro_text: "Let's talk about pop culture and gossip. It'll mostly be me talking but maybe you'll learn something.",
   volunteer_points: 100,

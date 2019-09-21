@@ -2,7 +2,7 @@ class Api::V1::TeachersController < ApplicationController
   before_action :find_teacher, only: [:show, :edit, :update, :destroy]
 
   def index
-    Binding.pry
+    # Binding.pry
     @teachers = Teacher.all
     render json: 
     @teachers, each_serializer: TeacherSerializer
@@ -20,7 +20,7 @@ class Api::V1::TeachersController < ApplicationController
     if @teacher.valid?
       render json: { teacher: TeacherSerializer.new(@teacher) }, status: :created
     else
-      render json: { error: 'failed to createt teacher' }, status: :not_acceptable
+      render json: { error: 'failed to create teacher' }, status: :not_acceptable
     end
     # TODO
     # render json: @teacher, status: 201
