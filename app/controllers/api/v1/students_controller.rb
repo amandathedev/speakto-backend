@@ -10,6 +10,10 @@ class Api::V1::StudentsController < ApplicationController
     @student = Student.new
   end
 
+  def profile
+    render json: { student: StudentSerializer.new(current_student) }, status: :accepted
+  end
+
   def create
     @student = Student.create(student_params)
     if @student.valid?
