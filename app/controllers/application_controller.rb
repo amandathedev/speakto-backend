@@ -1,7 +1,7 @@
 
 class ApplicationController < ActionController::API
   # skip_before_action :authorized, only: [:create]
-  before_action :authorized
+  # before_action :authorized
 
   def encode_token(payload)
     JWT.encode(payload, 'nativesecret')

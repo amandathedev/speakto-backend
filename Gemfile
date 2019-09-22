@@ -30,6 +30,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
+gem 'devise-jwt'
+
 # https://github.com/learn-co-curriculum/mod3-project-week-setup-example
 gem 'active_model_serializers', '0.9.3'
 
