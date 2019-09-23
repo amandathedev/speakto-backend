@@ -8,6 +8,7 @@ Rails.application.routes.draw do
       resources :students
       resources :teachers
       post '/login', to: 'auth#create'
+      post '/authorized' to: 'a'
       # get '/current_user', to: 'auth#show'
       # TODO
       get '/teacherprofile', to: 'teachers#show'

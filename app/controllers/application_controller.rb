@@ -1,4 +1,3 @@
-
 class ApplicationController < ActionController::API
   # skip_before_action :authorized, only: [:create]
   # before_action :authorized
@@ -22,20 +21,23 @@ class ApplicationController < ActionController::API
     end
   end
 
-  def current_student
+  def current_user
     if decoded_token()
-      student_id = decoded_token[0]['student_id']
-      @student = Student.find_by(id: student_id)
+      user_id = decoded_token[0]['user_id']
+      identity = decoded_token[0]['identity']
+      @user = nil
+      identity === 'student' ? @user = Student.find_by(id: user_id) : @user = Teacher.find_by(id: user_id)
+      render json: { user: @user, identity: identity }
     else
       nil
     end
   end
 
   def logged_in?
-    !!current_student
+    !!current_user
   end
 
   def authorized
-    render json: { message: 'Please log in' }, status: :unauthorized unless logged_in?
+    render json: { message: 'Please log in'}, status: :unauthorized unless logged_in?
   end
 end
