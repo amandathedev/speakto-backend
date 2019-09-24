@@ -1,3 +1,5 @@
+require 'pry'
+
 class Api::V1::AuthController < ApplicationController
 
   def create #POST /api/v1/login
@@ -13,6 +15,7 @@ class Api::V1::AuthController < ApplicationController
       @user = @teacher
       @identity = 'teacher'
     end
+
       
       if @identity === "student"
         @student && @student.authenticate(user_login_params[:password])
