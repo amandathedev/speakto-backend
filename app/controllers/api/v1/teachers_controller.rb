@@ -1,12 +1,11 @@
 class Api::V1::TeachersController < ApplicationController
-  skip_before_action :authorized, only: [:create]
+  # skip_before_action :authorized, only: [:create]
   before_action :find_teacher, only: [:show, :edit, :update, :destroy]
 
   def index
     # Binding.pry
     @teachers = Teacher.all
-    render json: 
-    @teachers, each_serializer: TeacherSerializer
+    render json: {teachers: @teachers, each_serializer: TeacherSerializer }
     # { teacher: TeacherSerializer.new(@teacher) }, status: :accepted
     # TODO
     # status: 200

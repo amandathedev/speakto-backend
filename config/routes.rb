@@ -9,8 +9,8 @@ Rails.application.routes.draw do
       resources :teachers
       post '/login', to: 'auth#create'
       # post '/profile', to: 
-      post "/teacherprofile", to 'teachers#profile'
-      post "/studentprofile", to 'student#profile'
+      # post "/teacherprofile", to: 'teachers#profile'
+      # post "/studentprofile", to: 'student#profile'
     end
   end
 end
