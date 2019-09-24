@@ -1,4 +1,5 @@
 class Api::V1::StudentsController < ApplicationController
+  skip_before_action :authorized, only: [:create]
   before_action :find_student, only: [:show, :edit, :update, :destroy]
 
   def index
@@ -17,7 +18,11 @@ class Api::V1::StudentsController < ApplicationController
   def create
     @student = Student.create(student_params)
     if @student.valid?
-      render json: { student: StudentSerializer.new(@student) }, status: :created
+      # stu_params = Hash.new
+      # stu_params["user"] = { :username => @student.username, :password => @student.password_digest }
+      # @auth_resp = registerNewUser(stu_params)
+      @jwt = encode_token({ user_id: @student.id, identity: "student" })
+      render json: { student: StudentSerializer.new(@student), jwt: @jwt }, status: :created
     else
       render json: { error: 'failed to create student' }, status: :not_acceptable
     end
@@ -27,7 +32,6 @@ class Api::V1::StudentsController < ApplicationController
   
   def show
     render json: @student, status: 200
-    # render json: {message: "Hello from the login"}
   end
 
   def edit

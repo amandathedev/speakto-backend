@@ -1,4 +1,5 @@
 class Api::V1::TeachersController < ApplicationController
+  skip_before_action :authorized, only: [:create]
   before_action :find_teacher, only: [:show, :edit, :update, :destroy]
 
   def index
@@ -18,17 +19,15 @@ class Api::V1::TeachersController < ApplicationController
   def create
     @teacher = Teacher.create(teacher_params)
     if @teacher.valid?
-      render json: { teacher: TeacherSerializer.new(@teacher) }, status: :created
+      @jwt = encode_token({ user_id: @teacher.id, identity: "teacher" })
+      render json: { teacher: TeacherSerializer.new(@teacher), jwt: @jwt }, status: :created
     else
       render json: { error: 'failed to create teacher' }, status: :not_acceptable
     end
-    # TODO
-    # render json: @teacher, status: 201
   end
 
   def show
     render json: @teacher, serializer: TeacherSerializer
-    # status: 200
   end
 
   def edit

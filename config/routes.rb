@@ -8,14 +8,9 @@ Rails.application.routes.draw do
       resources :students
       resources :teachers
       post '/login', to: 'auth#create'
-      # post '/authorized' to: 'a'
-      # get '/current_user', to: 'auth#show'
-      # TODO
-      get '/teacherprofile', to: 'teachers#show'
-      get '/studentprofile', to: 'students#show'
-
-      # TODO
-      # get '/login', to: 'students#show'
+      # post '/profile', to: 
+      post "/teacherprofile", to 'teachers#profile'
+      post "/studentprofile", to 'student#profile'
     end
   end
 end
