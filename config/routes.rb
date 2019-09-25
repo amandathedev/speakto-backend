@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-
   namespace :api do
     namespace :v1 do
       resources :ratings
@@ -8,9 +7,8 @@ Rails.application.routes.draw do
       resources :students
       resources :teachers
       post '/login', to: 'auth#create'
-      # post '/profile', to: 
-      # post "/teacherprofile", to: 'teachers#profile'
-      # post "/studentprofile", to: 'student#profile'
+      get "/teacherprofile", to: 'teachers#profile'
+      get "/studentprofile", to: 'students#profile'
     end
   end
 end

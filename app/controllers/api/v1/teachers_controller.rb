@@ -3,16 +3,17 @@ class Api::V1::TeachersController < ApplicationController
   before_action :find_teacher, only: [:show, :edit, :update, :destroy]
 
   def index
-    # Binding.pry
     @teachers = Teacher.all
-    render json: {teachers: @teachers, each_serializer: TeacherSerializer }
-    # { teacher: TeacherSerializer.new(@teacher) }, status: :accepted
-    # TODO
-    # status: 200
+    render json: @teachers, status: 200
   end
 
   def new
     @teacher = Teacher.new
+  end
+
+
+  def profile
+    render json: { teacher: TeacherSerializer.new(current_user) }, status: :accepted
   end
 
   def create
@@ -46,7 +47,7 @@ class Api::V1::TeachersController < ApplicationController
   private
 
   def teacher_params
-    params.require(:teacher).permit(:name, :username, :email, :password_digest, :skype_id, :photo_url, :intro_text, :volunteer_points, :lessons_completed, :income_balance)
+    params.require(:teacher).permit(:name, :username, :email, :password, :skype_id, :photo_url, :intro_text, :volunteer_points, :lessons_completed, :income_balance)
   end
 
   def find_teacher

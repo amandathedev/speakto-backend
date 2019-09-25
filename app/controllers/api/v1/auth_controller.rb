@@ -17,16 +17,14 @@ class Api::V1::AuthController < ApplicationController
     end
 
       
-      if @identity === "student"
-        @student && @student.authenticate(user_login_params[:password])
-        @token = encode_token({ user_id: @student.id, identity: @identity })
-        render json: {user: StudentSerializer.new(@student), jwt: @token }, status: :accepted
-      elsif @identity === "teacher"
-        @teacher && @teacher.authenticate(user_login_params[:password])
-        @token = encode_token({ user_id: @teacher.id, identity: @identity })
-        render json: {user: TeacherSerializer.new(@teacher), jwt: @token }, status: :accepted
-      else 
-        render json: { message: 'Invalid username or password' }, status: :unauthorized
+      if @identity == "student" && (@student && @student.authenticate(user_login_params[:password]))
+          @token = encode_token({ user_id: @student.id, identity: @identity })
+          render json: {user: StudentSerializer.new(@student), jwt: @token, status: :accepted}
+      elsif @identity == "teacher" && (@teacher && @teacher.authenticate(user_login_params[:password]))
+          @token = encode_token({ user_id: @teacher.id, identity: @identity })
+          render json: {user: TeacherSerializer.new(@teacher), jwt: @token, status: :accepted }
+      elsif 
+        render json: { message: 'Invalid username or password. Please try again.', status: :unauthorized }
        end
   end
 

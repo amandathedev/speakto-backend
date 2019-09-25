@@ -12,7 +12,7 @@ class Api::V1::StudentsController < ApplicationController
   end
 
   def profile
-    render json: { student: StudentSerializer.new(current_student) }, status: :accepted
+    render json: { student: StudentSerializer.new(current_user) }, status: :accepted
   end
 
   def create
@@ -26,8 +26,6 @@ class Api::V1::StudentsController < ApplicationController
     else
       render json: { error: 'failed to create student' }, status: :not_acceptable
     end
-    # TODO
-    # render json: @student, status: 201
   end
   
   def show
@@ -54,7 +52,7 @@ class Api::V1::StudentsController < ApplicationController
 
   # https://stackoverflow.com/questions/33713935/rails-4-strong-params-white-labelling-foreign-key
   def student_params
-    params.require(:student).permit(:name, :username, :email, :password_digest, :skype_id, :native_language, :photo_url, :lessons_completed, :lesson_credits)
+    params.require(:student).permit(:name, :username, :email, :password, :skype_id, :native_language, :photo_url, :lessons_completed, :lesson_credits)
   end
 
   def find_student

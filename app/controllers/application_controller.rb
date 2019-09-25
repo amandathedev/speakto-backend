@@ -24,8 +24,9 @@ class ApplicationController < ActionController::API
       user_id = decoded_token[0]['user_id']
       identity = decoded_token[0]['identity']
       @user = nil
-      identity === 'student' ? @user = Student.find_by(id: user_id) : @user = Teacher.find_by(id: user_id)
-      render json: { user: @user, identity: identity }
+      identity == 'student' ? @user = Student.find_by(id: user_id) : @user = Teacher.find_by(id: user_id)
+      @user
+      # render json: { user: @user, identity: identity }
     else
       nil
     end
