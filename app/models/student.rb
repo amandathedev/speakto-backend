@@ -10,5 +10,5 @@ class Student < ApplicationRecord
   validates :username, length: { minimum: 4 }
   validates :username, :email, :skype_id, uniqueness: true
   validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, :on => :create
-  validates_format_of :name, :with => /([\w\-\']{2,})([\s]+)([\w\-\']{2,})/, :on => create
+  # validates_format_of :name, :with => /([\w\-\']{2,})([\s]+)([\w\-\']{2,})/, :on => create
 end

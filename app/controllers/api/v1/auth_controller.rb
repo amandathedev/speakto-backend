@@ -1,6 +1,6 @@
-require 'pry'
 
 class Api::V1::AuthController < ApplicationController
+  skip_before_action :authorized
 
   def create #POST /api/v1/login
     @student = Student.find_by(username: user_login_params[:username])
@@ -24,7 +24,7 @@ class Api::V1::AuthController < ApplicationController
           @token = encode_token({ user_id: @teacher.id, identity: @identity })
           render json: {user: TeacherSerializer.new(@teacher), jwt: @token, status: :accepted }
       elsif 
-        render json: { message: 'Invalid username or password. Please try again.', status: :unauthorized }
+        render json: { message: 'Invalid username or password.', status: :unauthorized }
        end
   end
 
