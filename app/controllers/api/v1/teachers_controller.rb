@@ -4,7 +4,7 @@ class Api::V1::TeachersController < ApplicationController
 
   def index
     @teachers = Teacher.all
-    render json:  @teachers, include: [:ratings]
+    render json:  @teachers, include: [:ratings, :timeslots]
   end
 
   def new
@@ -22,7 +22,7 @@ class Api::V1::TeachersController < ApplicationController
       @jwt = encode_token({ user_id: @teacher.id, identity: "teacher" })
       render json: { teacher: TeacherSerializer.new(@teacher), jwt: @jwt }, status: :created
     else
-      render json: { error: 'failed to create teacher' }, status: :not_acceptable
+      render json: { error: 'Failed to create teacher' }, status: :not_acceptable
     end
   end
 

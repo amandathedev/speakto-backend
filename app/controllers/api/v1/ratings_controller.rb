@@ -2,7 +2,6 @@ class Api::V1::RatingsController < ApplicationController
   before_action :find_rating, only: [:show, :edit, :update, :destroy]
   
   def index
-    # TODO
     @ratings = nil
     params[:identity] == 'student' ? @ratings = Rating.all : @ratings = current_user.ratings
     render json: @ratings, status: 200

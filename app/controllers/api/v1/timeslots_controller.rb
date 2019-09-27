@@ -2,7 +2,8 @@ class Api::V1::TimeslotsController < ApplicationController
   before_action :find_timeslot, only: [:show, :edit, :update, :destroy]
 
   def index
-    @timeslots = Timeslot.all
+    @timeslots = nil
+    params[:identity] == 'student' ? @timeslots = Timeslot.all : @timeslots = current_user.timeslots
     render json: @timeslots, status: 200
   end
 
@@ -16,7 +17,8 @@ class Api::V1::TimeslotsController < ApplicationController
   end
 
   def show
-    render json: @timeslot, status: 200
+    @timeslots = Teacher.find(params[:id]).timeslots
+    render json: @timeslots, status: 200
   end
 
   def edit
