@@ -184,7 +184,7 @@ Teacher.create(
 
 Teacher.create(
   name: "Logan",
-  username: "notthestrangler",
+  username: "logan",
   email: "logan@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "lja012",
