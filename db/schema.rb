@@ -63,6 +63,7 @@ ActiveRecord::Schema.define(version: 2019_09_16_233621) do
   create_table "timeslots", force: :cascade do |t|
     t.integer "teacher_id"
     t.integer "month"
+    t.string "month_name"
     t.integer "date"
     t.integer "hour"
     t.boolean "available"
