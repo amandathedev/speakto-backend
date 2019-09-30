@@ -1,6 +1,6 @@
 class Api::V1::LessonsController < ApplicationController
-  # TODO take out line 3
-  skip_before_action :authorized
+  # TODO uncomment line 3 to view JSON
+  # skip_before_action :authorized
   before_action :find_lesson, only: [:show, :edit, :update, :destroy]
 
   def index
@@ -10,10 +10,14 @@ class Api::V1::LessonsController < ApplicationController
 
   def new
     @lesson = Lesson.new
+    # Find the timeslot
+    # Change available to false
   end
 
   def create
     @lesson = Lesson.create(lesson_params)
+    @timeslot = Timeslot.find_by(id: params[:timeslot_id])
+    @timeslot.update(available: false)
     render json: @lesson, status: 201
   end
 

@@ -1,4 +1,5 @@
 class Api::V1::TimeslotsController < ApplicationController
+  # skip_before_action :authorized
   before_action :find_timeslot, only: [:show, :edit, :update, :destroy]
 
   def index

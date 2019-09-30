@@ -7,8 +7,8 @@ class Teacher < ApplicationRecord
   has_many :ratings, through: :lessons
 
   validates :name, :username, :email, :password_digest, :skype_id, presence: true
-  validates :name, length: { minimum: 4 }
-  validates :username, length: { minimum: 4 }
+  validates :name, length: { minimum: 3 }
+  validates :username, length: { minimum: 3 }
   # validates :intro_text, length: { in: 20..500 }
   validates :username, :email, :skype_id, uniqueness: true
   # https://apidock.com/rails/ActiveModel/Validations/ClassMethods/validates_format_of
