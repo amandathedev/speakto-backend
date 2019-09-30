@@ -399,6 +399,7 @@ Student.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: false
@@ -407,6 +408,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: false
@@ -415,6 +417,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: false
@@ -423,6 +426,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -431,6 +435,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -439,6 +444,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -447,6 +453,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -455,6 +462,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -463,6 +471,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -471,6 +480,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -479,6 +489,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -487,6 +498,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -495,6 +507,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -503,6 +516,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -511,6 +525,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 1,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -520,6 +535,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 14,
   hour: 9,
   available: false
@@ -528,6 +544,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: false
@@ -536,6 +553,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 16,
   hour: 15,
   available: true
@@ -544,6 +562,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -552,6 +571,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 8,
   available: true
@@ -560,6 +580,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -568,6 +589,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -576,6 +598,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -584,6 +607,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -592,6 +616,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -601,6 +626,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -609,6 +635,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -617,6 +644,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -625,6 +653,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -633,6 +662,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 2,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -642,6 +672,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: false
@@ -650,6 +681,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: false
@@ -658,6 +690,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -666,6 +699,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -674,6 +708,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -682,6 +717,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -690,6 +726,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -698,6 +735,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -706,6 +744,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -714,6 +753,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -723,6 +763,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -731,6 +772,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -739,6 +781,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -747,6 +790,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -755,6 +799,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 3,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -764,6 +809,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -772,6 +818,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -780,6 +827,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -788,6 +836,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -796,6 +845,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -804,6 +854,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -812,6 +863,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -820,6 +872,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -828,6 +881,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -836,6 +890,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -845,6 +900,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -853,6 +909,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -861,6 +918,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -869,6 +927,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -877,6 +936,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 4,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -886,6 +946,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -894,6 +955,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -902,6 +964,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -910,6 +973,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -918,6 +982,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -926,6 +991,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -934,6 +1000,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -942,6 +1009,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -950,6 +1018,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -958,6 +1027,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -967,6 +1037,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -975,6 +1046,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -983,6 +1055,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -991,6 +1064,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -999,6 +1073,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 5,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -1008,6 +1083,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -1016,6 +1092,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -1024,6 +1101,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -1032,6 +1110,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -1040,6 +1119,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -1048,6 +1128,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -1056,6 +1137,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -1064,6 +1146,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1072,6 +1155,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -1080,6 +1164,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1089,6 +1174,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -1097,6 +1183,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -1105,6 +1192,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -1113,6 +1201,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -1121,6 +1210,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 6,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -1130,6 +1220,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -1138,6 +1229,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -1146,6 +1238,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -1154,6 +1247,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -1162,6 +1256,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -1170,6 +1265,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -1178,6 +1274,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -1186,6 +1283,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1194,6 +1292,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -1202,6 +1301,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1211,6 +1311,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -1219,6 +1320,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -1227,6 +1329,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -1235,6 +1338,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -1243,6 +1347,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 7,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -1252,6 +1357,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -1260,6 +1366,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -1268,6 +1375,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -1276,6 +1384,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -1284,6 +1393,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -1292,6 +1402,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -1300,6 +1411,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -1308,6 +1420,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1316,6 +1429,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -1324,6 +1438,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1333,6 +1448,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -1341,6 +1457,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -1349,6 +1466,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -1357,6 +1475,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -1365,6 +1484,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 8,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -1374,6 +1494,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -1382,6 +1503,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -1390,6 +1512,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -1398,6 +1521,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -1406,6 +1530,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -1414,6 +1539,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -1422,6 +1548,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -1430,6 +1557,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1438,6 +1566,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -1446,6 +1575,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1455,6 +1585,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -1463,6 +1594,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -1471,6 +1603,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -1479,6 +1612,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -1487,6 +1621,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 9,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -1496,6 +1631,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -1504,6 +1640,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -1512,6 +1649,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -1520,6 +1658,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -1528,6 +1667,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -1536,6 +1676,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -1544,6 +1685,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -1552,6 +1694,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1560,6 +1703,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -1568,6 +1712,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1577,6 +1722,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -1585,6 +1731,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -1593,6 +1740,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -1601,6 +1749,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -1609,6 +1758,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 10,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -1618,6 +1768,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -1626,6 +1777,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -1634,6 +1786,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -1642,6 +1795,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -1650,6 +1804,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -1658,6 +1813,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -1666,6 +1822,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -1674,6 +1831,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1682,6 +1840,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -1690,6 +1849,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1699,6 +1859,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -1707,6 +1868,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -1715,6 +1877,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -1723,6 +1886,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -1731,6 +1895,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 11,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -1740,6 +1905,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -1748,6 +1914,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -1756,6 +1923,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -1764,6 +1932,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -1772,6 +1941,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -1780,6 +1950,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -1788,6 +1959,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -1796,6 +1968,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1804,6 +1977,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -1812,6 +1986,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1821,6 +1996,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -1829,6 +2005,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -1837,6 +2014,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -1845,6 +2023,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -1853,6 +2032,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 12,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -1862,6 +2042,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -1870,6 +2051,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -1878,6 +2060,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -1886,6 +2069,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -1894,6 +2078,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -1902,6 +2087,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -1910,6 +2096,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -1918,6 +2105,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1926,6 +2114,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -1934,6 +2123,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -1943,6 +2133,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -1951,6 +2142,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -1959,6 +2151,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -1967,6 +2160,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -1975,6 +2169,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 13,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -1984,6 +2179,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -1992,6 +2188,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -2000,6 +2197,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -2008,6 +2206,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -2016,6 +2215,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -2024,6 +2224,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -2032,6 +2233,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -2040,6 +2242,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -2048,6 +2251,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -2056,6 +2260,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -2065,6 +2270,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -2073,6 +2279,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -2081,6 +2288,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -2089,6 +2297,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -2097,6 +2306,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 14,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -2106,6 +2316,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -2114,6 +2325,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -2122,6 +2334,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -2130,6 +2343,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -2138,6 +2352,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -2146,6 +2361,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -2154,6 +2370,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -2162,6 +2379,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -2170,6 +2388,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -2178,6 +2397,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -2187,6 +2407,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -2195,6 +2416,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -2203,6 +2425,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -2211,6 +2434,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -2219,6 +2443,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 15,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -2228,6 +2453,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -2236,6 +2462,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -2244,6 +2471,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -2252,6 +2480,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -2260,6 +2489,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -2268,6 +2498,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -2276,6 +2507,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -2284,6 +2516,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -2292,6 +2525,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -2300,6 +2534,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -2309,6 +2544,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -2317,6 +2553,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -2325,6 +2562,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -2333,6 +2571,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -2341,6 +2580,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 16,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -2350,6 +2590,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -2358,6 +2599,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -2366,6 +2608,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -2374,6 +2617,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -2382,6 +2626,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -2390,6 +2635,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -2398,6 +2644,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -2406,6 +2653,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -2414,6 +2662,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -2422,6 +2671,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -2431,6 +2681,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -2439,6 +2690,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -2447,6 +2699,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -2455,6 +2708,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -2463,6 +2717,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 17,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true
@@ -2472,6 +2727,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 13,
   available: true
@@ -2480,6 +2736,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 14,
   available: true
@@ -2488,6 +2745,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 15,
   hour: 15,
   available: true
@@ -2496,6 +2754,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 16,
   available: true
@@ -2504,6 +2763,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 17,
   hour: 17,
   available: true
@@ -2512,6 +2772,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 9,
   available: true
@@ -2520,6 +2781,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 10,
   available: true
@@ -2528,6 +2790,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -2536,6 +2799,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 10,
   available: true
@@ -2544,6 +2808,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 18,
   hour: 11,
   available: true
@@ -2553,6 +2818,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 11,
   available: true
@@ -2561,6 +2827,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 19,
   hour: 12,
   available: true
@@ -2569,6 +2836,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 11,
   available: true
@@ -2577,6 +2845,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 20,
   hour: 16,
   available: true
@@ -2585,6 +2854,7 @@ Timeslot.create(
 Timeslot.create(
   teacher_id: 18,
   month: 10,
+  month_name: "October",
   date: 21,
   hour: 11,
   available: true

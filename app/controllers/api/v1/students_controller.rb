@@ -1,5 +1,5 @@
 class Api::V1::StudentsController < ApplicationController
-  # skip_before_action :authorized, only: [:create]
+  # skip_before_action :authorized
   before_action :find_student, only: [:show, :edit, :update, :destroy]
 
   def index

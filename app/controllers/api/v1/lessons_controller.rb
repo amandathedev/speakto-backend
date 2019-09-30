@@ -1,4 +1,6 @@
 class Api::V1::LessonsController < ApplicationController
+  # TODO take out line 3
+  skip_before_action :authorized
   before_action :find_lesson, only: [:show, :edit, :update, :destroy]
 
   def index
