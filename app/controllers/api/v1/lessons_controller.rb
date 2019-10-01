@@ -1,14 +1,16 @@
 class Api::V1::LessonsController < ApplicationController
   # TODO uncomment line 3 to view JSON
-  # skip_before_action :authorized
+  skip_before_action :authorized
   before_action :find_lesson, only: [:show, :edit, :update, :destroy]
 
   def index
     # @lessons = Lesson.all
     @lessons = nil
-    # lol fix
-    params[:identity] == "teacher" ? @lessons = current_user.lessons : @lessons = current_user.lessons
-    render json: @lessons, status: 200
+    params[:identity] == "student" ? @lessons = current_user.lessons : @lessons = current_user.lessons
+    # render json: {lesson: LessonSerializer.new(lesson_params)}, status: 200
+    # render json: @lessons, each_serializer: LessonSerializer
+    render json: @lessons, include: [:teacher, :student, :timeslot]
+    # , status: 200
   end
 
   def new
@@ -23,7 +25,7 @@ class Api::V1::LessonsController < ApplicationController
   end
 
   def show
-    render json: @lesson, status: 200
+    render json: @lesson, serializer: LessonSerializer, include: [:teachers, :students, :timeslots]
   end
 
   def edit
