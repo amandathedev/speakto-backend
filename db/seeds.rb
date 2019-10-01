@@ -3132,18 +3132,3204 @@ Timeslot.create(
   available: true
 )
 
-# Past timeslots
-Timeslot.create(
-  teacher_id: Faker::Number.between(from: 1, to: 20),
-  month: Faker::Number.between(from: 6, to: 9),
-  month_name: "October",
-  date: 21,
+# Past timeslots teacher 1
+t1ts1 = Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  month_name: "September",
+  date: 1,
   hour: 11,
-  realdate: DateTime.new(2019, 10, 21, 11),
-  available: true
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
 )
 
-# Lessons
+t1ts2 = Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t1ts3 = Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t1ts4 = Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t1ts5 = Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t1ts6 = Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t1ts7 = Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t1ts8 = Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t1ts9 = Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t1ts10 = Timeslot.create(
+  teacher_id: 1,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# past timeslots teacher 2
+t2ts1 = Timeslot.create(
+  teacher_id: 2,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t2ts2 = Timeslot.create(
+  teacher_id: 2,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t2ts3 = Timeslot.create(
+  teacher_id: 2,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t2ts4 = Timeslot.create(
+  teacher_id: 2,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t2ts5 = Timeslot.create(
+  teacher_id: 2,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t2ts6 = Timeslot.create(
+  teacher_id: 2,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t2ts7 = Timeslot.create(
+  teacher_id: 2,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t2ts8 = Timeslot.create(
+  teacher_id: 2,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t2ts9 = Timeslot.create(
+  teacher_id: 2,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t2ts10 = Timeslot.create(
+  teacher_id: 2,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 3
+t3ts1 = Timeslot.create(
+  teacher_id: 3,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t3ts2 = Timeslot.create(
+  teacher_id: 3,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t3ts3 = Timeslot.create(
+  teacher_id: 3,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t3ts4 = Timeslot.create(
+  teacher_id: 3,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t3ts5 = Timeslot.create(
+  teacher_id: 3,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t3ts6 = Timeslot.create(
+  teacher_id: 3,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t3ts7 = Timeslot.create(
+  teacher_id: 3,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t3ts8 = Timeslot.create(
+  teacher_id: 3,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t3ts9 = Timeslot.create(
+  teacher_id: 3,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t3ts10 = Timeslot.create(
+  teacher_id: 3,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 4
+t4ts1 = Timeslot.create(
+  teacher_id: 4,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t4ts2 = Timeslot.create(
+  teacher_id: 4,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t4ts3 = Timeslot.create(
+  teacher_id: 4,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t4ts4 = Timeslot.create(
+  teacher_id: 4,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t4ts5 = Timeslot.create(
+  teacher_id: 4,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t4ts6 = Timeslot.create(
+  teacher_id: 4,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t4ts7 = Timeslot.create(
+  teacher_id: 4,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t4ts8 = Timeslot.create(
+  teacher_id: 4,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t4ts9 = Timeslot.create(
+  teacher_id: 4,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t4ts10 = Timeslot.create(
+  teacher_id: 4,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 5
+t5ts1 = Timeslot.create(
+  teacher_id: 5,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t5ts2 = Timeslot.create(
+  teacher_id: 5,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t5ts3 = Timeslot.create(
+  teacher_id: 5,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t5ts4 = Timeslot.create(
+  teacher_id: 5,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t5ts5 = Timeslot.create(
+  teacher_id: 5,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t5ts6 = Timeslot.create(
+  teacher_id: 5,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t5ts7 = Timeslot.create(
+  teacher_id: 5,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t5ts8 = Timeslot.create(
+  teacher_id: 5,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t5ts9 = Timeslot.create(
+  teacher_id: 5,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t5ts10 = Timeslot.create(
+  teacher_id: 5,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 6
+t6ts1 = Timeslot.create(
+  teacher_id: 6,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t6ts2 = Timeslot.create(
+  teacher_id: 6,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t6ts3 = Timeslot.create(
+  teacher_id: 6,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t6ts4 = Timeslot.create(
+  teacher_id: 6,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t6ts5 = Timeslot.create(
+  teacher_id: 6,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t6ts6 = Timeslot.create(
+  teacher_id: 6,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t6ts7 = Timeslot.create(
+  teacher_id: 6,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t6ts8 = Timeslot.create(
+  teacher_id: 6,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t6ts9 = Timeslot.create(
+  teacher_id: 6,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t6ts10 = Timeslot.create(
+  teacher_id: 6,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 7
+t7ts1 = Timeslot.create(
+  teacher_id: 7,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t7ts2 = Timeslot.create(
+  teacher_id: 7,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t7ts3 = Timeslot.create(
+  teacher_id: 7,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t7ts4 = Timeslot.create(
+  teacher_id: 7,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t7ts5 = Timeslot.create(
+  teacher_id: 7,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t7ts6 = Timeslot.create(
+  teacher_id: 7,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t7ts7 = Timeslot.create(
+  teacher_id: 7,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t7ts8 = Timeslot.create(
+  teacher_id: 7,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t7ts9 = Timeslot.create(
+  teacher_id: 7,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t7ts10 = Timeslot.create(
+  teacher_id: 7,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 8
+t8ts1 = Timeslot.create(
+  teacher_id: 8,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t8ts2 = Timeslot.create(
+  teacher_id: 8,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t8ts3 = Timeslot.create(
+  teacher_id: 8,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t8ts4 = Timeslot.create(
+  teacher_id: 8,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t8ts5 = Timeslot.create(
+  teacher_id: 8,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t8ts6 = Timeslot.create(
+  teacher_id: 8,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t8ts7 = Timeslot.create(
+  teacher_id: 8,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t8ts8 = Timeslot.create(
+  teacher_id: 8,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t8ts9 = Timeslot.create(
+  teacher_id: 8,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t8ts10 = Timeslot.create(
+  teacher_id: 8,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 9
+t9ts1 = Timeslot.create(
+  teacher_id: 9,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t9ts2 = Timeslot.create(
+  teacher_id: 9,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t9ts3 = Timeslot.create(
+  teacher_id: 9,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t9ts4 = Timeslot.create(
+  teacher_id: 9,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t9ts5 = Timeslot.create(
+  teacher_id: 9,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t9ts6 = Timeslot.create(
+  teacher_id: 9,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t9ts7 = Timeslot.create(
+  teacher_id: 9,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t9ts8 = Timeslot.create(
+  teacher_id: 9,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t9ts9 = Timeslot.create(
+  teacher_id: 9,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t9ts10 = Timeslot.create(
+  teacher_id: 9,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 10
+t10ts1 = Timeslot.create(
+  teacher_id: 10,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t10ts2 = Timeslot.create(
+  teacher_id: 10,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t10ts3 = Timeslot.create(
+  teacher_id: 10,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t10ts4 = Timeslot.create(
+  teacher_id: 10,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t10ts5 = Timeslot.create(
+  teacher_id: 10,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t10ts6 = Timeslot.create(
+  teacher_id: 10,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t10ts7 = Timeslot.create(
+  teacher_id: 10,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t10ts8 = Timeslot.create(
+  teacher_id: 10,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t10ts9 = Timeslot.create(
+  teacher_id: 10,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t10ts10 = Timeslot.create(
+  teacher_id: 10,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 11
+t11ts1 = Timeslot.create(
+  teacher_id: 11,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t11ts2 = Timeslot.create(
+  teacher_id: 11,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t11ts3 = Timeslot.create(
+  teacher_id: 11,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t11ts4 = Timeslot.create(
+  teacher_id: 11,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t11ts5 = Timeslot.create(
+  teacher_id: 11,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t11ts6 = Timeslot.create(
+  teacher_id: 11,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t11ts7 = Timeslot.create(
+  teacher_id: 11,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t11ts8 = Timeslot.create(
+  teacher_id: 11,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t11ts9 = Timeslot.create(
+  teacher_id: 11,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t11ts10 = Timeslot.create(
+  teacher_id: 11,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 12
+t12ts1 = Timeslot.create(
+  teacher_id: 12,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t12ts2 = Timeslot.create(
+  teacher_id: 12,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t12ts3 = Timeslot.create(
+  teacher_id: 12,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t12ts4 = Timeslot.create(
+  teacher_id: 12,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t12ts5 = Timeslot.create(
+  teacher_id: 12,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t12ts6 = Timeslot.create(
+  teacher_id: 12,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t12ts7 = Timeslot.create(
+  teacher_id: 12,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t12ts8 = Timeslot.create(
+  teacher_id: 12,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t12ts9 = Timeslot.create(
+  teacher_id: 12,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t12ts10 = Timeslot.create(
+  teacher_id: 12,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 13
+t13ts1 = Timeslot.create(
+  teacher_id: 13,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t13ts2 = Timeslot.create(
+  teacher_id: 13,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t13ts3 = Timeslot.create(
+  teacher_id: 13,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t13ts4 = Timeslot.create(
+  teacher_id: 13,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t13ts5 = Timeslot.create(
+  teacher_id: 13,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t13ts6 = Timeslot.create(
+  teacher_id: 13,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t13ts7 = Timeslot.create(
+  teacher_id: 13,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t13ts8 = Timeslot.create(
+  teacher_id: 13,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t13ts9 = Timeslot.create(
+  teacher_id: 13,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t13ts10 = Timeslot.create(
+  teacher_id: 13,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 14
+t14ts1 = Timeslot.create(
+  teacher_id: 14,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t14ts2 = Timeslot.create(
+  teacher_id: 14,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t14ts3 = Timeslot.create(
+  teacher_id: 14,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t14ts4 = Timeslot.create(
+  teacher_id: 14,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t14ts5 = Timeslot.create(
+  teacher_id: 14,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t14ts6 = Timeslot.create(
+  teacher_id: 14,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t14ts7 = Timeslot.create(
+  teacher_id: 14,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t14ts8 = Timeslot.create(
+  teacher_id: 14,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t14ts9 = Timeslot.create(
+  teacher_id: 14,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t14ts10 = Timeslot.create(
+  teacher_id: 14,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 15
+t15ts1 = Timeslot.create(
+  teacher_id: 15,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t15ts2 = Timeslot.create(
+  teacher_id: 15,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t15ts3 = Timeslot.create(
+  teacher_id: 15,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t15ts4 = Timeslot.create(
+  teacher_id: 15,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t15ts5 = Timeslot.create(
+  teacher_id: 15,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t15ts6 = Timeslot.create(
+  teacher_id: 15,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t15ts7 = Timeslot.create(
+  teacher_id: 15,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t15ts8 = Timeslot.create(
+  teacher_id: 15,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t15ts9 = Timeslot.create(
+  teacher_id: 15,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t15ts10 = Timeslot.create(
+  teacher_id: 15,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 16
+t16ts1 = Timeslot.create(
+  teacher_id: 16,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t16ts2 = Timeslot.create(
+  teacher_id: 16,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t16ts3 = Timeslot.create(
+  teacher_id: 16,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t16ts4 = Timeslot.create(
+  teacher_id: 16,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t16ts5 = Timeslot.create(
+  teacher_id: 16,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t16ts6 = Timeslot.create(
+  teacher_id: 16,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t16ts7 = Timeslot.create(
+  teacher_id: 16,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t16ts8 = Timeslot.create(
+  teacher_id: 16,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t16ts9 = Timeslot.create(
+  teacher_id: 16,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t16ts10 = Timeslot.create(
+  teacher_id: 16,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 17
+t17ts1 = Timeslot.create(
+  teacher_id: 17,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t17ts2 = Timeslot.create(
+  teacher_id: 17,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t17ts3 = Timeslot.create(
+  teacher_id: 17,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t17ts4 = Timeslot.create(
+  teacher_id: 17,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t17ts5 = Timeslot.create(
+  teacher_id: 17,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t17ts6 = Timeslot.create(
+  teacher_id: 17,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t17ts7 = Timeslot.create(
+  teacher_id: 17,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t17ts8 = Timeslot.create(
+  teacher_id: 17,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t17ts9 = Timeslot.create(
+  teacher_id: 17,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t17ts10 = Timeslot.create(
+  teacher_id: 17,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 18
+t18ts1 = Timeslot.create(
+  teacher_id: 18,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t18ts2 = Timeslot.create(
+  teacher_id: 18,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t18ts3 = Timeslot.create(
+  teacher_id: 18,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t18ts4 = Timeslot.create(
+  teacher_id: 18,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t18ts5 = Timeslot.create(
+  teacher_id: 18,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t18ts6 = Timeslot.create(
+  teacher_id: 18,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t18ts7 = Timeslot.create(
+  teacher_id: 18,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t18ts8 = Timeslot.create(
+  teacher_id: 18,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t18ts9 = Timeslot.create(
+  teacher_id: 18,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t18ts10 = Timeslot.create(
+  teacher_id: 18,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 19
+t19ts1 = Timeslot.create(
+  teacher_id: 19,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t19ts2 = Timeslot.create(
+  teacher_id: 19,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t19ts3 = Timeslot.create(
+  teacher_id: 19,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t19ts4 = Timeslot.create(
+  teacher_id: 19,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t19ts5 = Timeslot.create(
+  teacher_id: 19,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t19ts6 = Timeslot.create(
+  teacher_id: 19,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t19ts7 = Timeslot.create(
+  teacher_id: 19,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t19ts8 = Timeslot.create(
+  teacher_id: 19,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t19ts9 = Timeslot.create(
+  teacher_id: 19,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t19ts10 = Timeslot.create(
+  teacher_id: 19,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past timeslot teacher 20
+t20ts1 = Timeslot.create(
+  teacher_id: 20,
+  month: 9,
+  month_name: "September",
+  date: 1,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 1, 11),
+  available: false
+)
+
+t20ts2 = Timeslot.create(
+  teacher_id: 20,
+  month: 9,
+  month_name: "September",
+  date: 2,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 2, 11),
+  available: false
+)
+
+t20ts3 = Timeslot.create(
+  teacher_id: 20,
+  month: 9,
+  month_name: "September",
+  date: 3,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 3, 11),
+  available: false
+)
+
+t20ts4 = Timeslot.create(
+  teacher_id: 20,
+  month: 9,
+  month_name: "September",
+  date: 4,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 4, 11),
+  available: false
+)
+
+t20ts5 = Timeslot.create(
+  teacher_id: 20,
+  month: 9,
+  month_name: "September",
+  date: 5,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 5, 11),
+  available: false
+)
+
+t20ts6 = Timeslot.create(
+  teacher_id: 20,
+  month: 9,
+  month_name: "September",
+  date: 6,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 6, 11),
+  available: false
+)
+
+t20ts7 = Timeslot.create(
+  teacher_id: 20,
+  month: 9,
+  month_name: "September",
+  date: 7,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 7, 11),
+  available: false
+)
+
+t20ts8 = Timeslot.create(
+  teacher_id: 20,
+  month: 9,
+  month_name: "September",
+  date: 8,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 8, 11),
+  available: false
+)
+
+t20ts9 = Timeslot.create(
+  teacher_id: 20,
+  month: 9,
+  month_name: "September",
+  date: 9,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 9, 11),
+  available: false
+)
+
+t20ts10 = Timeslot.create(
+  teacher_id: 20,
+  month: 9,
+  month_name: "September",
+  date: 10,
+  hour: 11,
+  realdate: DateTime.new(2019, 9, 10, 11),
+  available: false
+)
+
+# Past lessons
+#Teacher 1
+l1past1 = Lesson.create(
+  teacher_id: 1,
+  student_id: 1,
+  timeslot_id: t1ts1.id
+)
+l1past2 = Lesson.create(
+  teacher_id: 1,
+  student_id: 2,
+  timeslot_id: t1ts2.id
+)
+l1past3 = Lesson.create(
+  teacher_id: 1,
+  student_id: 3,
+  timeslot_id: t1ts3.id
+)
+l1past4 = Lesson.create(
+  teacher_id: 1,
+  student_id: 4,
+  timeslot_id: t1ts4.id
+)
+l1past5 = Lesson.create(
+  teacher_id: 1,
+  student_id: 5,
+  timeslot_id: t1ts5.id
+)
+l1past6 = Lesson.create(
+  teacher_id: 1,
+  student_id: 6,
+  timeslot_id: t1ts6.id
+)
+l1past7 = Lesson.create(
+  teacher_id: 1,
+  student_id: 7,
+  timeslot_id: t1ts7.id
+)
+l1past8 = Lesson.create(
+  teacher_id: 1,
+  student_id: 8,
+  timeslot_id: t1ts8.id
+)
+l1past9 = Lesson.create(
+  teacher_id: 1,
+  student_id: 9,
+  timeslot_id: t1ts9.id
+)
+l1past10 = Lesson.create(
+  teacher_id: 1,
+  student_id: 10,
+  timeslot_id: t1ts10.id
+)
+
+
+#Teacher 2
+l2past1 = Lesson.create(
+  teacher_id: 2,
+  student_id: 1,
+  timeslot_id: t2ts1.id
+)
+l2past2 = Lesson.create(
+  teacher_id: 2,
+  student_id: 2,
+  timeslot_id: t2ts2.id
+)
+l2past3 = Lesson.create(
+  teacher_id: 2,
+  student_id: 3,
+  timeslot_id: t2ts3.id
+)
+l2past4 = Lesson.create(
+  teacher_id: 2,
+  student_id: 4,
+  timeslot_id: t2ts4.id
+)
+l2past5 = Lesson.create(
+  teacher_id: 2,
+  student_id: 5,
+  timeslot_id: t2ts5.id
+)
+l2past6 = Lesson.create(
+  teacher_id: 2,
+  student_id: 6,
+  timeslot_id: t2ts6.id
+)
+l2past7 = Lesson.create(
+  teacher_id: 2,
+  student_id: 7,
+  timeslot_id: t2ts7.id
+)
+l2past8 = Lesson.create(
+  teacher_id: 2,
+  student_id: 8,
+  timeslot_id: t2ts8.id
+)
+l2past9 = Lesson.create(
+  teacher_id: 2,
+  student_id: 9,
+  timeslot_id: t2ts9.id
+)
+l2past10 = Lesson.create(
+  teacher_id: 2,
+  student_id: 10,
+  timeslot_id: t2ts10.id
+)
+
+
+#Teacher 3
+l3past1 = Lesson.create(
+  teacher_id: 3,
+  student_id: 1,
+  timeslot_id: t3ts1.id
+)
+l3past2 = Lesson.create(
+  teacher_id: 3,
+  student_id: 2,
+  timeslot_id: t3ts2.id
+)
+l3past3 = Lesson.create(
+  teacher_id: 3,
+  student_id: 3,
+  timeslot_id: t3ts3.id
+)
+l3past4 = Lesson.create(
+  teacher_id: 3,
+  student_id: 4,
+  timeslot_id: t3ts4.id
+)
+l3past5 = Lesson.create(
+  teacher_id: 3,
+  student_id: 5,
+  timeslot_id: t3ts5.id
+)
+l3past6 = Lesson.create(
+  teacher_id: 3,
+  student_id: 6,
+  timeslot_id: t3ts6.id
+)
+l3past7 = Lesson.create(
+  teacher_id: 3,
+  student_id: 7,
+  timeslot_id: t3ts7.id
+)
+l3past8 = Lesson.create(
+  teacher_id: 3,
+  student_id: 8,
+  timeslot_id: t3ts8.id
+)
+l3past9 = Lesson.create(
+  teacher_id: 3,
+  student_id: 9,
+  timeslot_id: t3ts9.id
+)
+l3past10 = Lesson.create(
+  teacher_id: 3,
+  student_id: 10,
+  timeslot_id: t3ts10.id
+)
+
+
+#Teacher 4
+l4past1 = Lesson.create(
+  teacher_id: 4,
+  student_id: 1,
+  timeslot_id: t4ts1.id
+)
+l4past2 = Lesson.create(
+  teacher_id: 4,
+  student_id: 2,
+  timeslot_id: t4ts2.id
+)
+l4past3 = Lesson.create(
+  teacher_id: 4,
+  student_id: 3,
+  timeslot_id: t4ts3.id
+)
+l4past4 = Lesson.create(
+  teacher_id: 4,
+  student_id: 4,
+  timeslot_id: t4ts4.id
+)
+l4past5 = Lesson.create(
+  teacher_id: 4,
+  student_id: 5,
+  timeslot_id: t4ts5.id
+)
+
+l4past6 = Lesson.create(
+  teacher_id: 4,
+  student_id: 6,
+  timeslot_id: t4ts6.id
+)
+l4past7 = Lesson.create(
+  teacher_id: 4,
+  student_id: 7,
+  timeslot_id: t4ts7.id
+)
+l4past8 = Lesson.create(
+  teacher_id: 4,
+  student_id: 8,
+  timeslot_id: t4ts8.id
+)
+l4past9 = Lesson.create(
+  teacher_id: 4,
+  student_id: 9,
+  timeslot_id: t4ts9.id
+)
+l4past10 = Lesson.create(
+  teacher_id: 4,
+  student_id: 10,
+  timeslot_id: t4ts10.id
+)
+
+
+#Teacher 5
+l5past1 = Lesson.create(
+  teacher_id: 5,
+  student_id: 1,
+  timeslot_id: t5ts1.id
+)
+l5past2 = Lesson.create(
+  teacher_id: 5,
+  student_id: 2,
+  timeslot_id: t5ts2.id
+)
+l5past3 = Lesson.create(
+  teacher_id: 5,
+  student_id: 3,
+  timeslot_id: t5ts3.id
+)
+l5past4 = Lesson.create(
+  teacher_id: 5,
+  student_id: 4,
+  timeslot_id: t5ts4.id
+)
+l5past5 = Lesson.create(
+  teacher_id: 5,
+  student_id: 5,
+  timeslot_id: t5ts5.id
+)
+
+l5past6 = Lesson.create(
+  teacher_id: 5,
+  student_id: 6,
+  timeslot_id: t5ts6.id
+)
+l5past7 = Lesson.create(
+  teacher_id: 5,
+  student_id: 7,
+  timeslot_id: t5ts7.id
+)
+l5past8 = Lesson.create(
+  teacher_id: 5,
+  student_id: 8,
+  timeslot_id: t5ts8.id
+)
+l5past9 = Lesson.create(
+  teacher_id: 5,
+  student_id: 9,
+  timeslot_id: t5ts9.id
+)
+l5past10 = Lesson.create(
+  teacher_id: 5,
+  student_id: 10,
+  timeslot_id: t5ts10.id
+)
+
+
+#Teacher 6
+l6past1 = Lesson.create(
+  teacher_id: 6,
+  student_id: 1,
+  timeslot_id: t6ts1.id
+)
+l6past2 = Lesson.create(
+  teacher_id: 6,
+  student_id: 2,
+  timeslot_id: t6ts2.id
+)
+l6past3 = Lesson.create(
+  teacher_id: 6,
+  student_id: 3,
+  timeslot_id: t6ts3.id
+)
+l6past4 = Lesson.create(
+  teacher_id: 6,
+  student_id: 4,
+  timeslot_id: t6ts4.id
+)
+l6past5 = Lesson.create(
+  teacher_id: 6,
+  student_id: 5,
+  timeslot_id: t6ts5.id
+)
+
+l6past6 = Lesson.create(
+  teacher_id: 6,
+  student_id: 6,
+  timeslot_id: t6ts6.id
+)
+l6past7 = Lesson.create(
+  teacher_id: 6,
+  student_id: 7,
+  timeslot_id: t6ts7.id
+)
+l6past8 = Lesson.create(
+  teacher_id: 6,
+  student_id: 8,
+  timeslot_id: t6ts8.id
+)
+l6past9 = Lesson.create(
+  teacher_id: 6,
+  student_id: 9,
+  timeslot_id: t6ts9.id
+)
+l6past10 = Lesson.create(
+  teacher_id: 6,
+  student_id: 10,
+  timeslot_id: t6ts10.id
+)
+
+
+#Teacher 7
+l7past1 = Lesson.create(
+  teacher_id: 7,
+  student_id: 1,
+  timeslot_id: t7ts1.id
+)
+l7past2 = Lesson.create(
+  teacher_id: 7,
+  student_id: 2,
+  timeslot_id: t7ts2.id
+)
+l7past3 = Lesson.create(
+  teacher_id: 7,
+  student_id: 3,
+  timeslot_id: t7ts3.id
+)
+l7past4 = Lesson.create(
+  teacher_id: 7,
+  student_id: 4,
+  timeslot_id: t7ts4.id
+)
+l7past5 = Lesson.create(
+  teacher_id: 7,
+  student_id: 5,
+  timeslot_id: t7ts5.id
+)
+
+l7past6 = Lesson.create(
+  teacher_id: 7,
+  student_id: 6,
+  timeslot_id: t7ts6.id
+)
+l7past7 = Lesson.create(
+  teacher_id: 7,
+  student_id: 7,
+  timeslot_id: t7ts7.id
+)
+l7past8 = Lesson.create(
+  teacher_id: 7,
+  student_id: 8,
+  timeslot_id: t7ts8.id
+)
+l7past9 = Lesson.create(
+  teacher_id: 7,
+  student_id: 9,
+  timeslot_id: t7ts9.id
+)
+l7past10 = Lesson.create(
+  teacher_id: 7,
+  student_id: 10,
+  timeslot_id: t7ts10.id
+)
+
+
+#Teacher 8
+l8past1 = Lesson.create(
+  teacher_id: 8,
+  student_id: 1,
+  timeslot_id: t8ts1.id
+)
+l8past2 = Lesson.create(
+  teacher_id: 8,
+  student_id: 2,
+  timeslot_id: t8ts2.id
+)
+l8past3 = Lesson.create(
+  teacher_id: 8,
+  student_id: 3,
+  timeslot_id: t8ts3.id
+)
+l8past4 = Lesson.create(
+  teacher_id: 8,
+  student_id: 4,
+  timeslot_id: t8ts4.id
+)
+l8past5 = Lesson.create(
+  teacher_id: 8,
+  student_id: 5,
+  timeslot_id: t8ts5.id
+)
+
+l8past6 = Lesson.create(
+  teacher_id: 8,
+  student_id: 6,
+  timeslot_id: t8ts6.id
+)
+l8past7 = Lesson.create(
+  teacher_id: 8,
+  student_id: 7,
+  timeslot_id: t8ts7.id
+)
+l8past8 = Lesson.create(
+  teacher_id: 8,
+  student_id: 8,
+  timeslot_id: t8ts8.id
+)
+l8past9 = Lesson.create(
+  teacher_id: 8,
+  student_id: 9,
+  timeslot_id: t8ts9.id
+)
+l8past10 = Lesson.create(
+  teacher_id: 8,
+  student_id: 10,
+  timeslot_id: t8ts10.id
+)
+
+
+#Teacher 9
+l9past1 = Lesson.create(
+  teacher_id: 9,
+  student_id: 1,
+  timeslot_id: t9ts1.id
+)
+l9past2 = Lesson.create(
+  teacher_id: 9,
+  student_id: 2,
+  timeslot_id: t9ts2.id
+)
+l9past3 = Lesson.create(
+  teacher_id: 9,
+  student_id: 3,
+  timeslot_id: t9ts3.id
+)
+l9past4 = Lesson.create(
+  teacher_id: 9,
+  student_id: 4,
+  timeslot_id: t9ts4.id
+)
+l9past5 = Lesson.create(
+  teacher_id: 9,
+  student_id: 5,
+  timeslot_id: t9ts5.id
+)
+
+l9past6 = Lesson.create(
+  teacher_id: 9,
+  student_id: 6,
+  timeslot_id: t9ts6.id
+)
+l9past7 = Lesson.create(
+  teacher_id: 9,
+  student_id: 7,
+  timeslot_id: t9ts7.id
+)
+l9past8 = Lesson.create(
+  teacher_id: 9,
+  student_id: 8,
+  timeslot_id: t9ts8.id
+)
+l9past9 = Lesson.create(
+  teacher_id: 9,
+  student_id: 9,
+  timeslot_id: t9ts9.id
+)
+l9past10 = Lesson.create(
+  teacher_id: 9,
+  student_id: 10,
+  timeslot_id: t9ts10.id
+)
+
+
+# Teacher 10
+l10past1 = Lesson.create(
+  teacher_id: 10,
+  student_id: 1,
+  timeslot_id: t10ts1.id
+)
+
+l10past2 = Lesson.create(
+  teacher_id: 10,
+  student_id: 2,
+  timeslot_id: t10ts2.id
+)
+
+l10past3 = Lesson.create(
+  teacher_id: 10,
+  student_id: 3,
+  timeslot_id: t10ts3.id
+)
+
+l10past4 = Lesson.create(
+  teacher_id: 10,
+  student_id: 4,
+  timeslot_id: t10ts4.id
+)
+
+l10past5 = Lesson.create(
+  teacher_id: 10,
+  student_id: 5,
+  timeslot_id: t10ts5.id
+)
+
+
+l10past6 = Lesson.create(
+  teacher_id: 10,
+  student_id: 6,
+  timeslot_id: t10ts6.id
+)
+
+l10past7 = Lesson.create(
+  teacher_id: 10,
+  student_id: 7,
+  timeslot_id: t10ts7.id
+)
+
+l10past8 = Lesson.create(
+  teacher_id: 10,
+  student_id: 8,
+  timeslot_id: t10ts8.id
+)
+
+l10past9 = Lesson.create(
+  teacher_id: 10,
+  student_id: 9,
+  timeslot_id: t10ts9.id
+)
+
+l10past10 = Lesson.create(
+  teacher_id: 10,
+  student_id: 10,
+  timeslot_id: t10ts10.id
+)
+
+
+# Teacher 11
+l11past1 = Lesson.create(
+  teacher_id: 11,
+  student_id: 1,
+  timeslot_id: t11ts1.id
+)
+
+l11past2 = Lesson.create(
+  teacher_id: 11,
+  student_id: 2,
+  timeslot_id: t11ts2.id
+)
+
+l11past3 = Lesson.create(
+  teacher_id: 11,
+  student_id: 3,
+  timeslot_id: t11ts3.id
+)
+
+l11past4 = Lesson.create(
+  teacher_id: 11,
+  student_id: 4,
+  timeslot_id: t11ts4.id
+)
+
+l11past5 = Lesson.create(
+  teacher_id: 11,
+  student_id: 5,
+  timeslot_id: t11ts5.id
+)
+
+
+l11past6 = Lesson.create(
+  teacher_id: 11,
+  student_id: 6,
+  timeslot_id: t11ts6.id
+)
+
+l11past7 = Lesson.create(
+  teacher_id: 11,
+  student_id: 7,
+  timeslot_id: t11ts7.id
+)
+
+l11past8 = Lesson.create(
+  teacher_id: 11,
+  student_id: 8,
+  timeslot_id: t11ts8.id
+)
+
+l11past9 = Lesson.create(
+  teacher_id: 11,
+  student_id: 9,
+  timeslot_id: t11ts9.id
+)
+
+l11past10 = Lesson.create(
+  teacher_id: 11,
+  student_id: 10,
+  timeslot_id: t11ts10.id
+)
+
+
+# Teacher 12
+l12past1 = Lesson.create(
+  teacher_id: 12,
+  student_id: 1,
+  timeslot_id: t12ts1.id
+)
+
+l12past2 = Lesson.create(
+  teacher_id: 12,
+  student_id: 2,
+  timeslot_id: t12ts2.id
+)
+
+l12past3 = Lesson.create(
+  teacher_id: 12,
+  student_id: 3,
+  timeslot_id: t12ts3.id
+)
+
+l12past4 = Lesson.create(
+  teacher_id: 12,
+  student_id: 4,
+  timeslot_id: t12ts4.id
+)
+
+l12past5 = Lesson.create(
+  teacher_id: 12,
+  student_id: 5,
+  timeslot_id: t12ts5.id
+)
+
+
+l12past6 = Lesson.create(
+  teacher_id: 12,
+  student_id: 6,
+  timeslot_id: t12ts6.id
+)
+
+l12past7 = Lesson.create(
+  teacher_id: 12,
+  student_id: 7,
+  timeslot_id: t12ts7.id
+)
+
+l12past8 = Lesson.create(
+  teacher_id: 12,
+  student_id: 8,
+  timeslot_id: t12ts8.id
+)
+
+l12past9 = Lesson.create(
+  teacher_id: 12,
+  student_id: 9,
+  timeslot_id: t12ts9.id
+)
+
+l12past10 = Lesson.create(
+  teacher_id: 12,
+  student_id: 10,
+  timeslot_id: t12ts10.id
+)
+
+
+# Teacher 13
+l13past1 = Lesson.create(
+  teacher_id: 13,
+  student_id: 1,
+  timeslot_id: t13ts1.id
+)
+
+l13past2 = Lesson.create(
+  teacher_id: 13,
+  student_id: 2,
+  timeslot_id: t13ts2.id
+)
+
+l13past3 = Lesson.create(
+  teacher_id: 13,
+  student_id: 3,
+  timeslot_id: t13ts3.id
+)
+
+l13past4 = Lesson.create(
+  teacher_id: 13,
+  student_id: 4,
+  timeslot_id: t13ts4.id
+)
+
+l13past5 = Lesson.create(
+  teacher_id: 13,
+  student_id: 5,
+  timeslot_id: t13ts5.id
+)
+
+
+l13past6 = Lesson.create(
+  teacher_id: 13,
+  student_id: 6,
+  timeslot_id: t13ts6.id
+)
+
+l13past7 = Lesson.create(
+  teacher_id: 13,
+  student_id: 7,
+  timeslot_id: t13ts7.id
+)
+
+l13past8 = Lesson.create(
+  teacher_id: 13,
+  student_id: 8,
+  timeslot_id: t13ts8.id
+)
+
+l13past9 = Lesson.create(
+  teacher_id: 13,
+  student_id: 9,
+  timeslot_id: t13ts9.id
+)
+
+l13past10 = Lesson.create(
+  teacher_id: 13,
+  student_id: 10,
+  timeslot_id: t13ts10.id
+)
+
+
+# Teacher 14
+l14past1 = Lesson.create(
+  teacher_id: 14,
+  student_id: 1,
+  timeslot_id: t14ts1.id
+)
+
+l14past2 = Lesson.create(
+  teacher_id: 14,
+  student_id: 2,
+  timeslot_id: t14ts2.id
+)
+
+l14past3 = Lesson.create(
+  teacher_id: 14,
+  student_id: 3,
+  timeslot_id: t14ts3.id
+)
+
+l14past4 = Lesson.create(
+  teacher_id: 14,
+  student_id: 4,
+  timeslot_id: t14ts4.id
+)
+
+l14past5 = Lesson.create(
+  teacher_id: 14,
+  student_id: 5,
+  timeslot_id: t14ts5.id
+)
+
+
+l14past6 = Lesson.create(
+  teacher_id: 14,
+  student_id: 6,
+  timeslot_id: t14ts6.id
+)
+
+l14past7 = Lesson.create(
+  teacher_id: 14,
+  student_id: 7,
+  timeslot_id: t14ts7.id
+)
+
+l14past8 = Lesson.create(
+  teacher_id: 14,
+  student_id: 8,
+  timeslot_id: t14ts8.id
+)
+
+l14past9 = Lesson.create(
+  teacher_id: 14,
+  student_id: 9,
+  timeslot_id: t14ts9.id
+)
+
+l14past10 = Lesson.create(
+  teacher_id: 14,
+  student_id: 10,
+  timeslot_id: t14ts10.id
+)
+
+
+# Teacher 15
+l15past1 = Lesson.create(
+  teacher_id: 15,
+  student_id: 1,
+  timeslot_id: t15ts1.id
+)
+
+l15past2 = Lesson.create(
+  teacher_id: 15,
+  student_id: 2,
+  timeslot_id: t15ts2.id
+)
+
+l15past3 = Lesson.create(
+  teacher_id: 15,
+  student_id: 3,
+  timeslot_id: t15ts3.id
+)
+
+l15past4 = Lesson.create(
+  teacher_id: 15,
+  student_id: 4,
+  timeslot_id: t15ts4.id
+)
+
+l15past5 = Lesson.create(
+  teacher_id: 15,
+  student_id: 5,
+  timeslot_id: t15ts5.id
+)
+
+
+l15past6 = Lesson.create(
+  teacher_id: 15,
+  student_id: 6,
+  timeslot_id: t15ts6.id
+)
+
+l15past7 = Lesson.create(
+  teacher_id: 15,
+  student_id: 7,
+  timeslot_id: t15ts7.id
+)
+
+l15past8 = Lesson.create(
+  teacher_id: 15,
+  student_id: 8,
+  timeslot_id: t15ts8.id
+)
+
+l15past9 = Lesson.create(
+  teacher_id: 15,
+  student_id: 9,
+  timeslot_id: t15ts9.id
+)
+
+l15past10 = Lesson.create(
+  teacher_id: 15,
+  student_id: 10,
+  timeslot_id: t15ts10.id
+)
+
+
+# Teacher 16
+l16past1 = Lesson.create(
+  teacher_id: 16,
+  student_id: 1,
+  timeslot_id: t16ts1.id
+)
+
+l16past2 = Lesson.create(
+  teacher_id: 16,
+  student_id: 2,
+  timeslot_id: t16ts2.id
+)
+
+l16past3 = Lesson.create(
+  teacher_id: 16,
+  student_id: 3,
+  timeslot_id: t16ts3.id
+)
+
+l16past4 = Lesson.create(
+  teacher_id: 16,
+  student_id: 4,
+  timeslot_id: t16ts4.id
+)
+
+l16past5 = Lesson.create(
+  teacher_id: 16,
+  student_id: 5,
+  timeslot_id: t16ts5.id
+)
+
+
+l16past6 = Lesson.create(
+  teacher_id: 16,
+  student_id: 6,
+  timeslot_id: t16ts6.id
+)
+
+l16past7 = Lesson.create(
+  teacher_id: 16,
+  student_id: 7,
+  timeslot_id: t16ts7.id
+)
+
+l16past8 = Lesson.create(
+  teacher_id: 16,
+  student_id: 8,
+  timeslot_id: t16ts8.id
+)
+
+l16past9 = Lesson.create(
+  teacher_id: 16,
+  student_id: 9,
+  timeslot_id: t16ts9.id
+)
+
+l16past10 = Lesson.create(
+  teacher_id: 16,
+  student_id: 10,
+  timeslot_id: t16ts10.id
+)
+
+
+# Teacher 17
+l17past1 = Lesson.create(
+  teacher_id: 17,
+  student_id: 1,
+  timeslot_id: t17ts1.id
+)
+
+l17past2 = Lesson.create(
+  teacher_id: 17,
+  student_id: 2,
+  timeslot_id: t17ts2.id
+)
+
+l17past3 = Lesson.create(
+  teacher_id: 17,
+  student_id: 3,
+  timeslot_id: t17ts3.id
+)
+
+l17past4 = Lesson.create(
+  teacher_id: 17,
+  student_id: 4,
+  timeslot_id: t17ts4.id
+)
+
+l17past5 = Lesson.create(
+  teacher_id: 17,
+  student_id: 5,
+  timeslot_id: t17ts5.id
+)
+
+
+l17past6 = Lesson.create(
+  teacher_id: 17,
+  student_id: 6,
+  timeslot_id: t17ts6.id
+)
+
+l17past7 = Lesson.create(
+  teacher_id: 17,
+  student_id: 7,
+  timeslot_id: t17ts7.id
+)
+
+l17past8 = Lesson.create(
+  teacher_id: 17,
+  student_id: 8,
+  timeslot_id: t17ts8.id
+)
+
+l17past9 = Lesson.create(
+  teacher_id: 17,
+  student_id: 9,
+  timeslot_id: t17ts9.id
+)
+
+l17past10 = Lesson.create(
+  teacher_id: 17,
+  student_id: 10,
+  timeslot_id: t17ts10.id
+)
+
+
+# Teacher 18
+l18past1 = Lesson.create(
+  teacher_id: 18,
+  student_id: 1,
+  timeslot_id: t18ts1.id
+)
+
+l18past2 = Lesson.create(
+  teacher_id: 18,
+  student_id: 2,
+  timeslot_id: t18ts2.id
+)
+
+l18past3 = Lesson.create(
+  teacher_id: 18,
+  student_id: 3,
+  timeslot_id: t18ts3.id
+)
+
+l18past4 = Lesson.create(
+  teacher_id: 18,
+  student_id: 4,
+  timeslot_id: t18ts4.id
+)
+
+l18past5 = Lesson.create(
+  teacher_id: 18,
+  student_id: 5,
+  timeslot_id: t18ts5.id
+)
+
+
+l18past6 = Lesson.create(
+  teacher_id: 18,
+  student_id: 6,
+  timeslot_id: t18ts6.id
+)
+
+l18past7 = Lesson.create(
+  teacher_id: 18,
+  student_id: 7,
+  timeslot_id: t18ts7.id
+)
+
+l18past8 = Lesson.create(
+  teacher_id: 18,
+  student_id: 8,
+  timeslot_id: t18ts8.id
+)
+
+l18past9 = Lesson.create(
+  teacher_id: 18,
+  student_id: 9,
+  timeslot_id: t18ts9.id
+)
+
+l18past10 = Lesson.create(
+  teacher_id: 18,
+  student_id: 10,
+  timeslot_id: t18ts10.id
+)
+
+
+# Teacher 19
+l19past1 = Lesson.create(
+  teacher_id: 19,
+  student_id: 1,
+  timeslot_id: t19ts1.id
+)
+
+l19past2 = Lesson.create(
+  teacher_id: 19,
+  student_id: 2,
+  timeslot_id: t19ts2.id
+)
+
+l19past3 = Lesson.create(
+  teacher_id: 19,
+  student_id: 3,
+  timeslot_id: t19ts3.id
+)
+
+l19past4 = Lesson.create(
+  teacher_id: 19,
+  student_id: 4,
+  timeslot_id: t19ts4.id
+)
+
+l19past5 = Lesson.create(
+  teacher_id: 19,
+  student_id: 5,
+  timeslot_id: t19ts5.id
+)
+
+
+l19past6 = Lesson.create(
+  teacher_id: 19,
+  student_id: 6,
+  timeslot_id: t19ts6.id
+)
+
+l19past7 = Lesson.create(
+  teacher_id: 19,
+  student_id: 7,
+  timeslot_id: t19ts7.id
+)
+
+l19past8 = Lesson.create(
+  teacher_id: 19,
+  student_id: 8,
+  timeslot_id: t19ts8.id
+)
+
+l19past9 = Lesson.create(
+  teacher_id: 19,
+  student_id: 9,
+  timeslot_id: t19ts9.id
+)
+
+l19past10 = Lesson.create(
+  teacher_id: 19,
+  student_id: 10,
+  timeslot_id: t19ts10.id
+)
+
+
+# Teacher 20
+l20past1 = Lesson.create(
+  teacher_id: 20,
+  student_id: 1,
+  timeslot_id: t20ts1.id
+)
+
+l20past2 = Lesson.create(
+  teacher_id: 20,
+  student_id: 2,
+  timeslot_id: t20ts2.id
+)
+
+l20past3 = Lesson.create(
+  teacher_id: 20,
+  student_id: 3,
+  timeslot_id: t20ts3.id
+)
+
+l20past4 = Lesson.create(
+  teacher_id: 20,
+  student_id: 4,
+  timeslot_id: t20ts4.id
+)
+
+l20past5 = Lesson.create(
+  teacher_id: 20,
+  student_id: 5,
+  timeslot_id: t20ts5.id
+)
+
+
+l20past6 = Lesson.create(
+  teacher_id: 20,
+  student_id: 6,
+  timeslot_id: t20ts6.id
+)
+
+l20past7 = Lesson.create(
+  teacher_id: 20,
+  student_id: 7,
+  timeslot_id: t20ts7.id
+)
+
+l20past8 = Lesson.create(
+  teacher_id: 20,
+  student_id: 8,
+  timeslot_id: t20ts8.id
+)
+
+l20past9 = Lesson.create(
+  teacher_id: 20,
+  student_id: 9,
+  timeslot_id: t20ts9.id
+)
+
+l20past10 = Lesson.create(
+  teacher_id: 20,
+  student_id: 10,
+  timeslot_id: t20ts10.id
+)
+
+
+# Future lessons
 Lesson.create(
   teacher_id: 1,
   student_id: 1,
@@ -3222,4 +6408,525 @@ Rating.create(
 Rating.create(
   rating: 4,
   lesson_id: 32
+)
+
+# New ratings
+# Teacher 1
+Rating.create(
+  rating: 5,
+  lesson_id: l1past1.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l1past2.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l1past3.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l1past4.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l1past5.id
+)
+
+# Teacher 2
+Rating.create(
+  rating: 4,
+  lesson_id: l2past1.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l2past2.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l2past3.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l2past4.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l2past5.id
+)
+
+# Teacher 3
+Rating.create(
+  rating: 4,
+  lesson_id: l3past1.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l3past2.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l3past3.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l3past4.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l3past5.id
+)
+
+# Teacher 4
+Rating.create(
+  rating: 5,
+  lesson_id: l4past1.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l4past2.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l4past3.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l4past4.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l4past5.id
+)
+
+# Teacher 5
+Rating.create(
+  rating: 3,
+  lesson_id: l5past1.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l5past2.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l5past3.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l5past4.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l5past5.id
+)
+
+# Teacher 6
+Rating.create(
+  rating: 5,
+  lesson_id: l6past1.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l6past2.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l6past3.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l6past4.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l6past5.id
+)
+
+# Techer 7
+Rating.create(
+  rating: 5,
+  lesson_id: l7past1.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l7past2.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l7past3.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l7past4.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l7past5.id
+)
+
+# Teacher 8
+Rating.create(
+  rating: 2,
+  lesson_id: l8past1.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l8past2.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l8past3.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l8past4.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l8past5.id
+)
+
+# Teacher 9
+Rating.create(
+  rating: 5,
+  lesson_id: l9past1.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l9past2.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l9past3.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l9past4.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l9past5.id
+)
+
+# Teacher 10
+Rating.create(
+  rating: 1,
+  lesson_id: l10past1.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l10past2.id
+)
+
+Rating.create(
+  rating: 1,
+  lesson_id: l10past3.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l10past4.id
+)
+
+Rating.create(
+  rating: 1,
+  lesson_id: l10past5.id
+)
+
+# Teacher 11
+Rating.create(
+  rating: 5,
+  lesson_id: l11past1.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l11past2.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l11past3.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l11past4.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l11past5.id
+)
+
+# Teacher 12
+Rating.create(
+  rating: 5,
+  lesson_id: l12past1.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l12past2.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l12past3.id
+)
+
+Rating.create(
+  rating: 1,
+  lesson_id: l12past4.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l12past5.id
+)
+
+# Teacher 13
+Rating.create(
+  rating: 4,
+  lesson_id: l13past1.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l13past2.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l13past3.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l13past4.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l13past5.id
+)
+
+# Teacher 14
+Rating.create(
+  rating: 5,
+  lesson_id: l14past1.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l14past2.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l14past3.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l14past4.id
+)
+
+Rating.create(
+  rating: 1,
+  lesson_id: l14past5.id
+)
+
+# Teacher 15
+Rating.create(
+  rating: 5,
+  lesson_id: l15past1.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l15past2.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l15past3.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l15past4.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l15past5.id
+)
+
+# Teacher 16
+Rating.create(
+  rating: 4,
+  lesson_id: l16past1.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l16past2.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l16past3.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l16past4.id
+)
+
+Rating.create(
+  rating: 1,
+  lesson_id: l16past5.id
+)
+
+# Teacher 17
+Rating.create(
+  rating: 1,
+  lesson_id: l17past1.id
+)
+
+Rating.create(
+  rating: 1,
+  lesson_id: l17past2.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l17past3.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l17past4.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l17past5.id
+)
+
+# Teacher 18
+Rating.create(
+  rating: 5,
+  lesson_id: l18past1.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l18past2.id
+)
+
+Rating.create(
+  rating: 5,
+  lesson_id: l18past3.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l18past4.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l18past5.id
+)
+
+# Teacher 19
+Rating.create(
+  rating: 2,
+  lesson_id: l19past1.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l19past2.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l19past3.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l19past4.id
+)
+
+Rating.create(
+  rating: 2,
+  lesson_id: l19past5.id
+)
+
+# Teacher 20
+Rating.create(
+  rating: 3,
+  lesson_id: l20past1.id
+)
+
+Rating.create(
+  rating: 3,
+  lesson_id: l20past2.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l20past3.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l20past4.id
+)
+
+Rating.create(
+  rating: 4,
+  lesson_id: l20past5.id
 )
