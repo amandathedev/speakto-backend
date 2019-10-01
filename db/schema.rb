@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(version: 2019_09_16_233621) do
   end
 
   create_table "ratings", force: :cascade do |t|
-    t.string "comment"
     t.integer "rating"
     t.integer "lesson_id"
     t.datetime "created_at", null: false
@@ -66,6 +65,7 @@ ActiveRecord::Schema.define(version: 2019_09_16_233621) do
     t.string "month_name"
     t.integer "date"
     t.integer "hour"
+    t.datetime "realdate"
     t.boolean "available"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

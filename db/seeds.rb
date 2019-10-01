@@ -9,6 +9,7 @@
 
 # require "faker"
 require "bcrypt"
+require 'date'
 # https://stackoverflow.com/questions/31026248/encrypt-users-password-in-seed-file (second answer)
 
 
@@ -402,7 +403,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: false
 )
 
@@ -412,7 +413,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: false
 )
 
@@ -422,7 +423,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: false
 )
 
@@ -432,7 +433,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -442,7 +443,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -452,7 +453,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -462,7 +463,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -472,7 +473,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -482,7 +483,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -492,7 +493,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 18, 17),
+  realdate: DateTime.new(2019, 10, 18, 17),
   available: true
 )
 
@@ -502,7 +503,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -512,7 +513,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -522,7 +523,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -532,7 +533,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -542,7 +543,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -553,7 +554,7 @@ Timeslot.create(
   month_name: "October",
   date: 14,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 14, 09),
+  realdate: DateTime.new(2019, 10, 14, 9),
   available: false
 )
 
@@ -563,7 +564,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: false
 )
 
@@ -573,7 +574,7 @@ Timeslot.create(
   month_name: "October",
   date: 16,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 16, 15),
+  realdate: DateTime.new(2019, 10, 16, 15),
   available: true
 )
 
@@ -583,7 +584,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -593,7 +594,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 8,
-  realdate: Datetime.new(2019, 10, 18, 08),
+  realdate: DateTime.new(2019, 10, 18, 8),
   available: true
 )
 
@@ -603,7 +604,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -613,7 +614,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -623,7 +624,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -633,7 +634,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -643,7 +644,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -654,7 +655,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -664,7 +665,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -674,7 +675,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -684,7 +685,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -694,7 +695,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -705,7 +706,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: false
 )
 
@@ -715,7 +716,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: false
 )
 
@@ -725,7 +726,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -735,7 +736,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -745,7 +746,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -755,7 +756,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -765,7 +766,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -775,7 +776,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -785,7 +786,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -795,7 +796,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -806,7 +807,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -816,7 +817,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -826,7 +827,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -836,7 +837,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -846,7 +847,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -857,7 +858,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -867,7 +868,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -877,7 +878,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -887,7 +888,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -897,7 +898,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -907,7 +908,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -917,7 +918,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -927,7 +928,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -937,7 +938,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -947,7 +948,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -958,7 +959,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -968,7 +969,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -978,7 +979,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -988,7 +989,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -998,7 +999,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -1009,7 +1010,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -1019,7 +1020,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -1029,7 +1030,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -1039,7 +1040,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -1049,7 +1050,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -1059,7 +1060,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 19),
+  realdate: DateTime.new(2019, 10, 18, 19),
   available: true
 )
 
@@ -1069,7 +1070,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -1079,7 +1080,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -1089,7 +1090,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -1099,7 +1100,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -1110,7 +1111,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -1120,7 +1121,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -1130,7 +1131,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -1140,7 +1141,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -1150,7 +1151,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -1161,7 +1162,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -1171,7 +1172,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -1181,7 +1182,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -1191,7 +1192,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -1201,7 +1202,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -1211,7 +1212,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -1221,7 +1222,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -1231,7 +1232,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -1241,7 +1242,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -1251,7 +1252,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -1262,7 +1263,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -1272,7 +1273,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -1282,7 +1283,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -1292,7 +1293,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -1302,7 +1303,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -1313,7 +1314,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -1323,7 +1324,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -1334,7 +1335,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -1344,7 +1345,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -1354,7 +1355,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -1364,7 +1365,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -1374,7 +1375,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -1384,7 +1385,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -1394,7 +1395,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -1404,7 +1405,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -1415,7 +1416,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -1425,7 +1426,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -1435,7 +1436,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -1445,7 +1446,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -1455,7 +1456,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -1466,7 +1467,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -1476,7 +1477,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -1486,7 +1487,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -1496,7 +1497,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -1506,7 +1507,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -1516,7 +1517,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -1526,7 +1527,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -1536,7 +1537,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -1546,7 +1547,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -1556,7 +1557,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -1567,7 +1568,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -1577,7 +1578,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -1587,7 +1588,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -1597,7 +1598,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -1607,7 +1608,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -1618,7 +1619,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -1628,7 +1629,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -1638,7 +1639,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -1648,7 +1649,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -1658,7 +1659,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -1668,7 +1669,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -1678,7 +1679,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -1688,7 +1689,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -1698,7 +1699,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -1708,7 +1709,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -1719,7 +1720,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -1729,7 +1730,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -1739,7 +1740,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -1749,7 +1750,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -1759,7 +1760,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -1770,7 +1771,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -1780,7 +1781,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -1790,7 +1791,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -1800,7 +1801,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -1810,7 +1811,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -1820,7 +1821,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -1830,7 +1831,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -1840,7 +1841,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -1850,7 +1851,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -1860,7 +1861,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -1871,7 +1872,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -1881,7 +1882,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -1891,7 +1892,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -1901,7 +1902,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -1911,7 +1912,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -1922,7 +1923,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -1932,7 +1933,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -1942,7 +1943,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -1952,7 +1953,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -1962,7 +1963,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -1972,7 +1973,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -1982,7 +1983,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -1992,7 +1993,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -2002,7 +2003,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -2012,7 +2013,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -2023,7 +2024,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -2033,7 +2034,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -2043,7 +2044,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -2053,7 +2054,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -2063,7 +2064,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -2074,7 +2075,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -2084,7 +2085,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -2094,7 +2095,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -2104,7 +2105,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -2114,7 +2115,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -2124,7 +2125,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -2134,7 +2135,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -2144,7 +2145,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -2154,7 +2155,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -2164,7 +2165,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -2175,7 +2176,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -2185,7 +2186,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -2195,7 +2196,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -2205,7 +2206,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -2215,7 +2216,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -2226,7 +2227,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -2236,7 +2237,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -2246,7 +2247,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -2256,7 +2257,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -2266,7 +2267,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -2276,7 +2277,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -2286,7 +2287,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -2296,7 +2297,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -2306,7 +2307,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -2316,7 +2317,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -2327,7 +2328,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -2337,7 +2338,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -2347,7 +2348,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -2357,7 +2358,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -2367,7 +2368,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -2378,7 +2379,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -2388,7 +2389,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -2398,7 +2399,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -2408,7 +2409,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -2418,7 +2419,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -2428,7 +2429,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -2438,7 +2439,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -2448,7 +2449,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -2458,7 +2459,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -2468,7 +2469,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -2479,7 +2480,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -2489,7 +2490,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -2499,7 +2500,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -2509,7 +2510,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -2519,7 +2520,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -2530,7 +2531,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -2540,7 +2541,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -2550,7 +2551,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -2560,7 +2561,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -2570,7 +2571,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -2580,7 +2581,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -2590,7 +2591,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -2600,7 +2601,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -2610,7 +2611,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -2620,7 +2621,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -2631,7 +2632,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -2641,7 +2642,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -2651,7 +2652,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -2661,7 +2662,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -2671,7 +2672,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -2682,7 +2683,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -2692,7 +2693,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -2702,7 +2703,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -2712,7 +2713,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -2722,7 +2723,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -2732,7 +2733,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -2742,7 +2743,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -2752,7 +2753,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -2762,7 +2763,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -2772,7 +2773,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -2783,7 +2784,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -2793,7 +2794,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -2803,7 +2804,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -2813,7 +2814,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -2823,7 +2824,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -2834,7 +2835,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -2844,7 +2845,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -2854,7 +2855,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -2864,7 +2865,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -2874,7 +2875,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -2884,7 +2885,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -2894,7 +2895,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -2904,7 +2905,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -2914,7 +2915,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -2924,7 +2925,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -2935,7 +2936,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -2945,7 +2946,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -2955,7 +2956,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -2965,7 +2966,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -2975,7 +2976,7 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -2986,7 +2987,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 15, 13),
+  realdate: DateTime.new(2019, 10, 15, 13),
   available: true
 )
 
@@ -2996,7 +2997,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 14,
-  realdate: Datetime.new(2019, 10, 15, 14),
+  realdate: DateTime.new(2019, 10, 15, 14),
   available: true
 )
 
@@ -3006,7 +3007,7 @@ Timeslot.create(
   month_name: "October",
   date: 15,
   hour: 15,
-  realdate: Datetime.new(2019, 10, 15, 15),
+  realdate: DateTime.new(2019, 10, 15, 15),
   available: true
 )
 
@@ -3016,7 +3017,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 17, 16),
+  realdate: DateTime.new(2019, 10, 17, 16),
   available: true
 )
 
@@ -3026,7 +3027,7 @@ Timeslot.create(
   month_name: "October",
   date: 17,
   hour: 17,
-  realdate: Datetime.new(2019, 10, 17, 17),
+  realdate: DateTime.new(2019, 10, 17, 17),
   available: true
 )
 
@@ -3036,7 +3037,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 9,
-  realdate: Datetime.new(2019, 10, 18, 09),
+  realdate: DateTime.new(2019, 10, 18, 9),
   available: true
 )
 
@@ -3046,7 +3047,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 18, 10),
+  realdate: DateTime.new(2019, 10, 18, 10),
   available: true
 )
 
@@ -3056,7 +3057,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 18, 11),
+  realdate: DateTime.new(2019, 10, 18, 11),
   available: true
 )
 
@@ -3066,7 +3067,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 10,
-  realdate: Datetime.new(2019, 10, 19, 10),
+  realdate: DateTime.new(2019, 10, 19, 10),
   available: true
 )
 
@@ -3076,7 +3077,7 @@ Timeslot.create(
   month_name: "October",
   date: 18,
   hour: 13,
-  realdate: Datetime.new(2019, 10, 18, 13),
+  realdate: DateTime.new(2019, 10, 18, 13),
   available: true
 )
 
@@ -3087,7 +3088,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 19, 11),
+  realdate: DateTime.new(2019, 10, 19, 11),
   available: true
 )
 
@@ -3097,7 +3098,7 @@ Timeslot.create(
   month_name: "October",
   date: 19,
   hour: 12,
-  realdate: Datetime.new(2019, 10, 19, 12),
+  realdate: DateTime.new(2019, 10, 19, 12),
   available: true
 )
 
@@ -3107,7 +3108,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 20, 11),
+  realdate: DateTime.new(2019, 10, 20, 11),
   available: true
 )
 
@@ -3117,7 +3118,7 @@ Timeslot.create(
   month_name: "October",
   date: 20,
   hour: 16,
-  realdate: Datetime.new(2019, 10, 20, 16),
+  realdate: DateTime.new(2019, 10, 20, 16),
   available: true
 )
 
@@ -3127,7 +3128,18 @@ Timeslot.create(
   month_name: "October",
   date: 21,
   hour: 11,
-  realdate: Datetime.new(2019, 10, 21, 11),
+  realdate: DateTime.new(2019, 10, 21, 11),
+  available: true
+)
+
+# Past timeslots
+Timeslot.create(
+  teacher_id: Faker::Number.between(from: 1, to: 20),
+  month: Faker::Number.between(from: 6, to: 9),
+  month_name: "October",
+  date: 21,
+  hour: 11,
+  realdate: DateTime.new(2019, 10, 21, 11),
   available: true
 )
 
@@ -3178,43 +3190,36 @@ Lesson.create(
 
 # Ratings
 Rating.create(
-  comment: "Wonderful",
   rating: 5,
   lesson_id: 1
 )
 
 Rating.create(
-  comment: "Pretty good",
   rating: 4,
   lesson_id: 2
 )
 
 Rating.create(
-  comment: "Nice",
   rating: 5,
   lesson_id: 3
 )
 
 Rating.create(
-  comment: "Thank you",
   rating: 4,
   lesson_id: 16
 )
 
 Rating.create(
-  comment: "Yay",
   rating: 5,
   lesson_id: 17
 )
 
 Rating.create(
-  comment: "Kinda boring",
   rating: 2,
   lesson_id: 31
 )
 
 Rating.create(
-  comment: "Not sure why he talked about beets so much.",
   rating: 4,
   lesson_id: 32
 )

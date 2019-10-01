@@ -1,12 +1,12 @@
 class Api::V1::LessonsController < ApplicationController
   # TODO uncomment line 3 to view JSON
-  skip_before_action :authorized
+  # skip_before_action :authorized
   before_action :find_lesson, only: [:show, :edit, :update, :destroy]
 
   def index
     # @lessons = Lesson.all
-    @lessons = nil
-    params[:identity] == "student" ? @lessons = current_user.lessons : @lessons = current_user.lessons
+    @lessons = current_user.lessons
+    # params[:identity] == "student" ? @lessons = current_user.lessons : @lessons = current_user.lessons
     # render json: {lesson: LessonSerializer.new(lesson_params)}, status: 200
     # render json: @lessons, each_serializer: LessonSerializer
     render json: @lessons, include: [:teacher, :student, :timeslot]
