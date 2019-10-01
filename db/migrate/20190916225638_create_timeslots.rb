@@ -6,6 +6,7 @@ class CreateTimeslots < ActiveRecord::Migration[5.2]
       t.string :month_name
       t.integer :date
       t.integer :hour
+      t.datetime :realdate
       t.boolean :available
 
       t.timestamps

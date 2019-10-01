@@ -5,7 +5,7 @@ class Api::V1::TeachersController < ApplicationController
 
   def index
     @teachers = Teacher.all
-    render json:  @teachers, include: [:ratings, :timeslots]
+    render json: @teachers, include: [:ratings, :timeslots]
   end
 
   def new
