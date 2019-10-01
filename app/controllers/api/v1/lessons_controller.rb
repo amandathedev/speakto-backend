@@ -4,14 +4,15 @@ class Api::V1::LessonsController < ApplicationController
   before_action :find_lesson, only: [:show, :edit, :update, :destroy]
 
   def index
-    @lessons = Lesson.all
+    # @lessons = Lesson.all
+    @lessons = nil
+    # lol fix
+    params[:identity] == "teacher" ? @lessons = current_user.lessons : @lessons = current_user.lessons
     render json: @lessons, status: 200
   end
 
   def new
     @lesson = Lesson.new
-    # Find the timeslot
-    # Change available to false
   end
 
   def create

@@ -1,5 +1,6 @@
 class LessonSerializer < ApplicationSerializer
-  attributes :id, :teacher_id, :student_id, :timeslot_id
+  # check
+  attributes :id, :teacher, :student, :timeslot
   # belongs_to :teacher
   # belongs_to :student
   # belongs_to :timeslot

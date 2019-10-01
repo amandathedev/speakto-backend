@@ -482,7 +482,7 @@ Timeslot.create(
   month: 10,
   month_name: "October",
   date: 18,
-  hour: 11,
+  hour: 17,
   available: true
 )
 

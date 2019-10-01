@@ -22,7 +22,7 @@ class Api::V1::TeachersController < ApplicationController
       @jwt = encode_token({ user_id: @teacher.id, identity: "teacher" })
       render json: { teacher: TeacherSerializer.new(@teacher), jwt: @jwt }, status: :created
     else
-      render json: { error: 'Failed to create teacher' }, status: :not_acceptable
+      render json: { error: 'Error. Please check your details and try again.' }, status: :not_acceptable
     end
   end
 
