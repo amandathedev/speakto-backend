@@ -19,7 +19,8 @@ class Api::V1::TimeslotsController < ApplicationController
 
   def show
     @timeslots = Teacher.find(params[:id]).timeslots
-    render json: @timeslots, status: 200
+    # render json: @timeslots, status: 200
+    render json: @timeslots, serializer: TimeslotSerializer, include: [:student]
   end
 
   def edit

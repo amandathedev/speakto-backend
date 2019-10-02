@@ -165,7 +165,7 @@ Teacher.create(
   skype_id: "clim",
   photo_url: "https://bloximages.newyork1.vip.townnews.com/hoosiertimes.com/content/tncms/assets/v3/editorial/2/c3/2c3f600f-856b-530d-a345-424c32c3272c/5ba575b7834af.image.jpg",
   lessons_completed: 10,
-  intro_text: "I am the best teacher. You should book lessons with me. Thanks.",
+  intro_text: "Complex problems? I can help you solve them.",
   volunteer_points: 150,
   income_balance: 100
 )
@@ -176,9 +176,9 @@ Teacher.create(
   email: "shawn@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "srwatlanta",
-  photo_url: "https://miro.medium.com/max/800/1*QoChsX73yfhJ62jo8QmTDw.jpeg",
+  photo_url: "https://media.licdn.com/dms/image/C5603AQFNFa2LlapzAg/profile-displayphoto-shrink_800_800/0?e=1575504000&v=beta&t=K4Ern9V9CEMzAU9VamNClxNT-b4wypGiC36ET8-kw9s",
   lessons_completed: 20,
-  intro_text: "I know literally everything about everything. Book a lesson with me.",
+  intro_text: "I am a jack of all trades. What would you like to talk about today?",
   volunteer_points: 150,
   income_balance: 200
 )
@@ -204,7 +204,7 @@ Teacher.create(
   skype_id: "erica123",
   photo_url: "https://media.licdn.com/dms/image/C5603AQE9F_ZZmF7-_A/profile-displayphoto-shrink_800_800/0?e=1574899200&v=beta&t=xdPWOlSlQe6Z0Lq6YqAXb6COwu6AgDZgoxeWxiTf3WA",
   lessons_completed: 10,
-  intro_text: "What would you like to talk about? Call me!",
+  intro_text: "Interested in film production or software engineering? Give me a ring!",
   volunteer_points: 150,
   income_balance: 100
 )
@@ -6735,7 +6735,7 @@ Rating.create(
 )
 
 Rating.create(
-  rating: 4,
+  rating: 5,
   lesson_id: l13past3.id
 )
 
