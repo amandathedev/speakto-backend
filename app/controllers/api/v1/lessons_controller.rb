@@ -37,8 +37,16 @@ class Api::V1::LessonsController < ApplicationController
   end
 
   def destroy
+    student = @lesson.student
+    timeslot = @lesson.timeslot
     lessonId = @lesson.id
     @lesson.destroy
+    # Add ten credits to student.lesson_credits
+    student.lesson_credits += 10
+    # student.update(lesson_credits: lesson_credits += 10)
+    # Change timeslot.available to true
+    timeslot.available = true
+    # timeslot.update( )
     render json: {message: "Lesson deleted", lessonId:lessonId}
   end
 
