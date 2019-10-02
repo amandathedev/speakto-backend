@@ -18,10 +18,17 @@ class Api::V1::LessonsController < ApplicationController
   end
 
   def create
-    @lesson = Lesson.create(lesson_params)
-    @timeslot = Timeslot.find_by(id: params[:timeslot_id])
-    @timeslot.update(available: false)
-    render json: @lesson, status: 201
+    student1 = Student.find_by(id: params[:student_id])
+    if student1.lesson_credits > 10
+      @lesson = Lesson.create(timeslot_id: params[:timeslot_id], student_id: params[:student_id], teacher_id: params[:teacher_id])
+      @timeslot = Timeslot.find_by(id: params[:timeslot_id])
+      @timeslot.update(available: false)
+      student1.lesson_credits -= 10
+      student1.save
+      render json: @lesson, status: 201
+    else
+      render json: {message: "Insufficient credits."}
+    end
   end
 
   def show
@@ -41,12 +48,10 @@ class Api::V1::LessonsController < ApplicationController
     timeslot = @lesson.timeslot
     lessonId = @lesson.id
     @lesson.destroy
-    # Add ten credits to student.lesson_credits
     student.lesson_credits += 10
-    # student.update(lesson_credits: lesson_credits += 10)
-    # Change timeslot.available to true
+    student.save
     timeslot.available = true
-    # timeslot.update( )
+    timeslot.save
     render json: {message: "Lesson deleted", lessonId:lessonId}
   end
 

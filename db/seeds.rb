@@ -6714,7 +6714,7 @@ Rating.create(
 )
 
 Rating.create(
-  rating: 1,
+  rating: 5,
   lesson_id: l12past4.id
 )
 
@@ -6740,12 +6740,12 @@ Rating.create(
 )
 
 Rating.create(
-  rating: 4,
+  rating: 5,
   lesson_id: l13past4.id
 )
 
 Rating.create(
-  rating: 2,
+  rating: 5,
   lesson_id: l13past5.id
 )
 
@@ -6766,12 +6766,12 @@ Rating.create(
 )
 
 Rating.create(
-  rating: 2,
+  rating: 3,
   lesson_id: l14past4.id
 )
 
 Rating.create(
-  rating: 1,
+  rating: 5,
   lesson_id: l14past5.id
 )
 
@@ -6797,7 +6797,7 @@ Rating.create(
 )
 
 Rating.create(
-  rating: 2,
+  rating: 5,
   lesson_id: l15past5.id
 )
 
