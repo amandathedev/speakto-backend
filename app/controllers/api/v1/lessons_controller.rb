@@ -9,7 +9,7 @@ class Api::V1::LessonsController < ApplicationController
     # params[:identity] == "student" ? @lessons = current_user.lessons : @lessons = current_user.lessons
     # render json: {lesson: LessonSerializer.new(lesson_params)}, status: 200
     # render json: @lessons, each_serializer: LessonSerializer
-    render json: @lessons, include: [:teacher, :student, :timeslot]
+    render json: @lessons, include: [:teacher, :student, :timeslot, :rating]
     # , status: 200
   end
 
