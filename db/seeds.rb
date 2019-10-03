@@ -6724,7 +6724,7 @@ Rating.create(
 
 # Teacher 13
 Rating.create(
-  rating: 4,
+  rating: 5,
   lesson_id: l13past1.id
 )
 
