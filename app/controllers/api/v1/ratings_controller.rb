@@ -13,7 +13,11 @@ class Api::V1::RatingsController < ApplicationController
   
   def create
     @rating = Rating.create(rating_params)
-    render json: @rating, status: 201
+    # render json: {lessons: LessonSerializer}, status: :created
+    @lessons = current_user.lessons
+    render json: @lessons, include: [:teacher, :student, :timeslot, :rating]
+
+
   end
 
   def show
