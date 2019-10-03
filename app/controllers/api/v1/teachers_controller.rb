@@ -27,7 +27,7 @@ class Api::V1::TeachersController < ApplicationController
   end
 
   def show
-    render json: @teacher, serializer: TeacherSerializer, include: [:ratings, :timeslots]
+    render json: @teacher, serializer: TeacherSerializer, include: [:ratings, :timeslots, :lessons]
   end
 
   def edit

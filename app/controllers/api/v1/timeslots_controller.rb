@@ -1,11 +1,11 @@
 class Api::V1::TimeslotsController < ApplicationController
-  # skip_before_action :authorized
+  skip_before_action :authorized
   before_action :find_timeslot, only: [:show, :edit, :update, :destroy]
 
   def index
     @timeslots = nil
     params[:identity] == 'student' ? @timeslots = Timeslot.all : @timeslots = current_user.timeslots
-    render json: @timeslots, status: 200
+    render json: @timeslots, serializer: TimeslotSerializer, include: [:lesson, :student]
   end
 
   def new
@@ -20,7 +20,7 @@ class Api::V1::TimeslotsController < ApplicationController
   def show
     @timeslots = Teacher.find(params[:id]).timeslots
     # render json: @timeslots, status: 200
-    render json: @timeslots, serializer: TimeslotSerializer, include: [:student]
+    render json: @timeslots, serializer: TimeslotSerializer, include: [:lesson, :student]
   end
 
   def edit
