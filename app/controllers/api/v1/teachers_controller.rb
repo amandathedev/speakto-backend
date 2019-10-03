@@ -20,6 +20,16 @@ class Api::V1::TeachersController < ApplicationController
     @teacher = Teacher.create(teacher_params)
     if @teacher.valid?
       @jwt = encode_token({ user_id: @teacher.id, identity: "teacher" })
+      Timeslot.create(teacher_id: @teacher.id, month: 11, month_name: "November", date: 1, hour: 8, realdate: DateTime.new(2019, 11, 1, 8), available: true)
+      Timeslot.create(teacher_id: @teacher.id, month: 11, month_name: "November", date: 2, hour: 8, realdate: DateTime.new(2019, 11, 2, 8), available: true)
+      Timeslot.create(teacher_id: @teacher.id, month: 11, month_name: "November", date: 3, hour: 8, realdate: DateTime.new(2019, 11, 3, 8), available: true)
+      Timeslot.create(teacher_id: @teacher.id, month: 11, month_name: "November", date: 4, hour: 8, realdate: DateTime.new(2019, 11, 4, 8), available: true)
+      Timeslot.create(teacher_id: @teacher.id, month: 11, month_name: "November", date: 5, hour: 8, realdate: DateTime.new(2019, 11, 5, 8), available: true)
+      Timeslot.create(teacher_id: @teacher.id, month: 11, month_name: "November", date: 1, hour: 9, realdate: DateTime.new(2019, 11, 1, 9), available: true)
+      Timeslot.create(teacher_id: @teacher.id, month: 11, month_name: "November", date: 2, hour: 9, realdate: DateTime.new(2019, 11, 2, 9), available: true)
+      Timeslot.create(teacher_id: @teacher.id, month: 11, month_name: "November", date: 3, hour: 9, realdate: DateTime.new(2019, 11, 3, 9), available: true)
+      Timeslot.create(teacher_id: @teacher.id, month: 11, month_name: "November", date: 4, hour: 9, realdate: DateTime.new(2019, 11, 4, 9), available: true)
+      Timeslot.create(teacher_id: @teacher.id, month: 11, month_name: "November", date: 5, hour: 9, realdate: DateTime.new(2019, 11, 5, 9), available: true)
       render json: { teacher: TeacherSerializer.new(@teacher), jwt: @jwt }, status: :created
     else
       render json: { error: 'Error. Please check your details and try again.' }, status: :not_acceptable
