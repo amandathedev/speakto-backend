@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2019_09_16_233621) do
 
   create_table "ratings", force: :cascade do |t|
     t.integer "rating"
+    t.string "comment"
     t.integer "lesson_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
