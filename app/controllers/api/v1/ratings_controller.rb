@@ -41,7 +41,7 @@ class Api::V1::RatingsController < ApplicationController
   private
 
   def rating_params
-    params.require(:rating).permit(:rating, :lesson_id)
+    params.require(:rating).permit(:rating, :comment, :lesson_id)
   end
 
   def find_rating

@@ -6376,36 +6376,43 @@ Lesson.create(
 # Ratings
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: 1
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: 2
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: 3
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: 16
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: 17
 )
 
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: 31
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: 32
 )
 
@@ -6413,519 +6420,619 @@ Rating.create(
 # Teacher 1
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l1past1.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l1past2.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l1past3.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l1past4.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l1past5.id
 )
 
 # Teacher 2
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l2past1.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l2past2.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l2past3.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l2past4.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l2past5.id
 )
 
 # Teacher 3
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l3past1.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l3past2.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l3past3.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l3past4.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l3past5.id
 )
 
 # Teacher 4
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l4past1.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l4past2.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l4past3.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l4past4.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l4past5.id
 )
 
 # Teacher 5
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l5past1.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l5past2.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l5past3.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l5past4.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l5past5.id
 )
 
 # Teacher 6
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l6past1.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l6past2.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l6past3.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l6past4.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l6past5.id
 )
 
 # Techer 7
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l7past1.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l7past2.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l7past3.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l7past4.id
 )
 
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l7past5.id
 )
 
 # Teacher 8
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l8past1.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l8past2.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l8past3.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l8past4.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l8past5.id
 )
 
 # Teacher 9
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l9past1.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l9past2.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l9past3.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l9past4.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l9past5.id
 )
 
 # Teacher 10
 Rating.create(
   rating: 1,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l10past1.id
 )
 
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l10past2.id
 )
 
 Rating.create(
   rating: 1,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l10past3.id
 )
 
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l10past4.id
 )
 
 Rating.create(
   rating: 1,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l10past5.id
 )
 
 # Teacher 11
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l11past1.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l11past2.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l11past3.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l11past4.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l11past5.id
 )
 
 # Teacher 12
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l12past1.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l12past2.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l12past3.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l12past4.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l12past5.id
 )
 
 # Teacher 13
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l13past1.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l13past2.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l13past3.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l13past4.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l13past5.id
 )
 
 # Teacher 14
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l14past1.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l14past2.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l14past3.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l14past4.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l14past5.id
 )
 
 # Teacher 15
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l15past1.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l15past2.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l15past3.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l15past4.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l15past5.id
 )
 
 # Teacher 16
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l16past1.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l16past2.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l16past3.id
 )
 
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l16past4.id
 )
 
 Rating.create(
   rating: 1,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l16past5.id
 )
 
 # Teacher 17
 Rating.create(
   rating: 1,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l17past1.id
 )
 
 Rating.create(
   rating: 1,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l17past2.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l17past3.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l17past4.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l17past5.id
 )
 
 # Teacher 18
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l18past1.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l18past2.id
 )
 
 Rating.create(
   rating: 5,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l18past3.id
 )
 
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l18past4.id
 )
 
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l18past5.id
 )
 
 # Teacher 19
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l19past1.id
 )
 
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l19past2.id
 )
 
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l19past3.id
 )
 
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l19past4.id
 )
 
 Rating.create(
   rating: 2,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l19past5.id
 )
 
 # Teacher 20
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l20past1.id
 )
 
 Rating.create(
   rating: 3,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l20past2.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l20past3.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l20past4.id
 )
 
 Rating.create(
   rating: 4,
+  comment: Faker::TvShows::MichaelScott.quote,
   lesson_id: l20past5.id
 )
