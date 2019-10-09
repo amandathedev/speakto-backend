@@ -31,7 +31,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
-
+gem 'faker'
 gem 'devise-jwt'
 
 # https://github.com/learn-co-curriculum/mod3-project-week-setup-example
@@ -40,7 +40,7 @@ gem 'active_model_serializers', '0.9.3'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'faker'
+  # gem 'faker'
 end
 
 group :development do
