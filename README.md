@@ -1,24 +1,32 @@
-# README
+# SpeakTo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Please see the frontend repository here: https://github.com/amandathedev/speakto-frontend
 
-Things you may want to cover:
+A live demo is available at http://www.speakto.io
 
-* Ruby version
+SpeakTo is a way for teachers and students to connect. Students can browse teachers, book lessons, and leave feedback. Teachers can view their schedule, earnings, and ratings.
 
-* System dependencies
+## Installation
 
-* Configuration
+Clone this repository to your system and run:
 
-* Database creation
+```bash
+bundle install
+```
 
-* Database initialization
+Then open the frontend repository at https://github.com/amandathedev/speakto-frontend and follow the instructions in that ReadME.
 
-* How to run the test suite
+## Usage
 
-* Services (job queues, cache servers, search engines, etc.)
+Feel free to create new user accounts. Teacher and student accounts have different permissions. If you'd like to access an account that has already been created, you can use the following login credentials:
 
-* Deployment instructions
+1. For a student account, login with the username 'creed' and the password 123.
+2. For a teacher account, login with the username 'spamster' and the password 123.
 
-* ...
+## Contributing
+
+Pull requests are welcome. If you discover any bugs, I'd love to hear about it. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
