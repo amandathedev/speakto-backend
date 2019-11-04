@@ -202,7 +202,7 @@ Teacher.create(
   email: "erica@email.com",
   password_digest: BCrypt::Password.create('123'),
   skype_id: "erica123",
-  photo_url: "https://media.licdn.com/dms/image/C5603AQE9F_ZZmF7-_A/profile-displayphoto-shrink_800_800/0?e=1574899200&v=beta&t=xdPWOlSlQe6Z0Lq6YqAXb6COwu6AgDZgoxeWxiTf3WA",
+  photo_url: "https://media.licdn.com/dms/image/C4E03AQEq0xyac5xxNg/profile-displayphoto-shrink_800_800/0?e=1578528000&v=beta&t=o05p0XkUQlRChH7qJH00AS0amLV_oF-ZdMiVUdY8ZvY",
   lessons_completed: 10,
   intro_text: "Interested in film production or software engineering? Give me a ring!",
   volunteer_points: 150,
